@@ -1,10 +1,78 @@
-Parte 1: O Algoritmo do Microclima Local (Pesquisa + Código 1)
+Parte 1: O Algoritmo do Microclima Local
+Este código simula como as variáveis ambientais (temperatura, umidade) afetam os cômodos da sua casa.
 
-Codigo: https://colab.research.google.com/drive/1tbcFBWzeAJIxXB-Qn8XYxA5B38lzFp8Y?usp=sharing
+Python
+# --- Configuração do Microclima ---
+cocomos = ["Quarto 1", "Quarto 2", "Sala/Cozinha", "Banheiro"]
 
-Parte 2: Navegação e Evacuação Espacial (Avaliação + Código 2)
+def simular_microclima(temperatura_externa, umidade_externa):
+    dados_casa = {}
+    for comodo in cocomos:
+        # Lógica: A Sala/Cozinha por ser ampla retém menos calor
+        # O Quarto 2 com varanda tem maior influência externa
+        if comodo == "Sala/Cozinha":
+            temp_ajustada = temperatura_externa * 0.95
+        elif comodo == "Quarto 2":
+            temp_ajustada = temperatura_externa * 1.05
+        else:
+            temp_ajustada = temperatura_externa
+            
+        dados_casa[comodo] = {
+            "temperatura": round(temp_ajustada, 2),
+            "umidade": umidade_externa
+        }
+    return dados_casa
 
-Codigo: https://colab.research.google.com/drive/1tbcFBWzeAJIxXB-Qn8XYxA5B38lzFp8Y?usp=sharing
+# Teste da Parte 1
+clima_atual = simular_microclima(30, 60)
+print("Dados do Microclima:", clima_atual)
+Parte 2: Navegação e Evacuação Espacial
+Este código implementa a lógica de nós de decisão, inventário e o risco da varanda que você descreveu.
+
+Python
+# --- Configuração da Casa e Regras de Evacuação ---
+layout_casa = {
+    'Quarto 1': {'conecta': 'Sala/Cozinha', 'chave': True},
+    'Quarto 2': {'conecta': 'Sala/Cozinha', 'chave': True, 'emergencia': 'Varanda'},
+    'Sala/Cozinha': {'conecta': 'SAIDA_PRINCIPAL', 'chave': False},
+    'Banheiro': {'conecta': 'Sala/Cozinha', 'chave': False},
+    'Varanda': {'conecta': 'RUA', 'risco': 'ALTO'}
+}
+
+def plano_evacuacao(local_atual, inventario, energia):
+    print(f"--- Iniciando evacuação de: {local_atual} ---")
+    
+    # 1. Tentar Saída Principal pela Sala
+    if local_atual == 'Sala/Cozinha':
+        print("Caminho livre! Saída principal alcançada.")
+        return True
+    
+    # 2. Verificar se está em um quarto com chave
+    info = layout_casa[local_atual]
+    if info['chave'] and 'chave_casa' not in inventario:
+        print(f"Alerta: Você precisa pegar a chave no {local_atual} primeiro!")
+        inventario.append('chave_casa')
+    
+    # 3. Lógica Crítica: Varanda (Quarto 2)
+    if 'emergencia' in info:
+        print(f"Caminho alternativo detectado: {info['emergencia']}")
+        if energia < 50:
+            print("Energia BAIXA. Pular da varanda é muito arriscado! Tente a Sala.")
+        else:
+            print("Energia SUFICIENTE. Evacuação de emergência pela varanda realizada com sucesso (Risco de acidente).")
+            return True
+
+    # 4. Movimentação para a Sala
+    proximo_passo = info['conecta']
+    print(f"Movendo de {local_atual} para {proximo_passo}...")
+    return plano_evacuacao(proximo_passo, inventario, energia)
+
+# --- Teste de Simulação ---
+meu_inventario = []
+minha_energia = 70  # Altere para < 50 para ver a mudança de comportamento
+
+plano_evacuacao('Quarto 2', meu_inventario, minha_energia)
+
 
 Casa com 4 cômodos
 
