@@ -8,6 +8,8 @@
 [![E-mail](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:guilhermesilva123159@gmai.com)
 [![Curriculo](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/dark60895-cpu)
 
+[![Currículo](https://img.shields.io/badge/CURRÍCULO-100000?style=for-the-badge&logo=googledocs&logoColor=white)] [![Curriculo](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/dark60895-cpu)
+
 ---
 
 ### 👨‍💻 Sobre
