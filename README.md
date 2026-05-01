@@ -23,9 +23,6 @@ Atualmente, foco em unir minha capacidade analítica e organização técnica ao
 
 ### 📂 Portfólio de Projetos
 
-#### 🛠️ Engenharia de Software e Lógica
-| Projeto | Descrição | Link |
-| :--- | :--- | :---: |
 | **Engenharia de Soluções Lógicas** | Modelagem de problemas complexos através de algoritmos estruturados. | [Ver Projeto](https://github.com/dark60895-cpu/Portifolio-Guilherme-da-silva-ferreira-batista/tree/50ae7a386f4fa42e0ce5147a47386fad3d5a1b14/Projeto-engenharia-de-solu%C3%A7%C3%B5es-logicas) |
 | **Traduzindo Lógica para Python** | Implementação técnica de fluxogramas e pseudocódigos na linguagem Python. | [Ver Projeto](https://github.com/dark60895-cpu/Portifolio-Guilherme-da-silva-ferreira-batista/tree/50ae7a386f4fa42e0ce5147a47386fad3d5a1b14/Projeto-traduzindo-logica-para-python) |
 | **Modularização** | Organização de sistemas em módulos independentes para facilitar a manutenção e escalabilidade. | [Ver Projeto](https://github.com/dark60895-cpu/Portifolio-Guilherme-da-silva-ferreira-batista/tree/50ae7a386f4fa42e0ce5147a47386fad3d5a1b14/Projeto-Modulariza%C3%A7%C3%A3o) |
