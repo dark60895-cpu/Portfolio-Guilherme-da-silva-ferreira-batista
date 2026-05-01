@@ -1,23 +1,23 @@
 # Guilherme Silva Ferreira Batista
-> Estudante de Análise e Desenvolvimento de Sistemas[cite: 5]
+> Estudante de Análise e Desenvolvimento de Sistemas | Auxiliar Administrativo & Logística
 
 ---
 
 ### 📫 Contato & Redes Sociais
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/guilherme-da-silva-ferreira-batista-6294513b5)
 [![E-mail](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:guilhermesilva123159@gmai.com)
-[![Currículo](https://img.shields.io/badge/Currículo-000000?style=for-the-badge&logo=read-the-docs&logoColor=white)](./guilherme_silva(curriculo)...%20(1)_3.docx)[cite: 5]
+[![Currículo](https://img.shields.io/badge/Currículo-000000?style=for-the-badge&logo=read-the-docs&logoColor=white)](./guilherme_silva_curriculo.docx)
 
 ---
 
 ### 👨‍💻 Sobre
-Atualmente cursando o tecnólogo em **Análise e Desenvolvimento de Sistemas**[cite: 5]. Com uma trajetória de 4 anos no setor logístico e operacional no Atacadão (Grupo Carrefour)[cite: 5], desenvolvi uma forte capacidade analítica e organização técnica aplicada ao gerenciamento de fluxos e sistemas internos[cite: 5].
+Atualmente cursando o tecnólogo em **Análise e Desenvolvimento de Sistemas**. Com uma trajetória de 4 anos no setor logístico e operacional no Atacadão (Grupo Carrefour), desenvolvi uma forte capacidade analítica e organização técnica aplicada ao gerenciamento de fluxos, estoques e sistemas internos.
 
-Hoje, foco minha transição de carreira no desenvolvimento de soluções tecnológicas que utilizam o raciocínio computacional para resolver problemas complexos do mundo físico e digital[cite: 1, 2].
+Hoje, foco minha transição de carreira no desenvolvimento de soluções tecnológicas que utilizam o raciocínio computacional para resolver problemas complexos, desde a gestão de inventários até a modelagem de lógica física.
 
-* **Habilidades Técnicas:** Python, Lógica de Programação, Gestão de Fluxos e Inventário, Pacote Office Intermediário[cite: 1, 2, 5].
-* **Habilidades Socioemocionais:** Resolução de problemas estruturada, pensamento crítico e foco em precisão operacional[cite: 1, 5].
-* **Interesses:** Desenvolvimento Backend, Engenharia de Dados e Automação de Processos Administrativos[cite: 5].
+* **Habilidades Técnicas:** Python, Lógica de Programação, Gestão de Fluxos e Inventário, Pacote Office Intermediário.
+* **Habilidades Socioemocionais:** Resolução de problemas estruturada, pensamento crítico e foco em precisão operacional.
+* **Interesses:** Desenvolvimento Backend, Engenharia de Dados e Automação de Processos Administrativos.
 
 ---
 
@@ -28,29 +28,37 @@ Hoje, foco minha transição de carreira no desenvolvimento de soluções tecnol
 
 #### 🗄️ Ambientes e Produtividade
 ![Google Colab](https://img.shields.io/badge/Colab-F9AB00?style=for-the-badge&logo=googlecolab&color=525252)
-![Excel](https://img.shields.io/badge/Microsoft_Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)[cite: 5]
+![Excel](https://img.shields.io/badge/Microsoft_Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
 
 ---
 
 ### 📂 Portfólio de Projetos
 
+#### 📦 Gestão de Estoque e Fluxos (Lógica Programacional)
+| Projeto | Descrição | Visualização |
+| :--- | :--- | :---: |
+| **Módulo de Entrada e Saída** | Implementação de lógica para recebimento, conferência e atualização de banco de dados de mercadorias. | [Ver Fluxograma](./1.jpeg) |
+| **Sistema de Venda de Tênis** | Algoritmo em Python para validação de saldo de estoque, processamento de vendas e reposição de itens. | [Ver Código](./3.jpeg) |
+| **Cálculo de Troco Automático** | Módulo que calcula a distribuição exata de cédulas e moedas para transações financeiras. | [Ver Lógica](./5.jpeg) |
+
 #### 🗺️ Engenharia de Contexto e Lógica Física
 | Projeto | Descrição | Link |
 | :--- | :--- | :---: |
-| **Navegação de Emergência** | Motor lógico que mapeia uma residência como nós de decisão para simular rotas de evacuação baseadas em riscos e inventário[cite: 1]. | [Ver Projeto](./Projeto-engenharia-de-contexto-e-logica-fisica.ipynb) |
-| **Simulação de Microclima** | Implementação de algoritmos para análise e processamento de variáveis ambientais locais[cite: 1]. | [Ver Projeto](./Projeto-engenharia-de-contexto-e-logica-fisica.ipynb) |
+| **Navegação de Emergência** | Motor lógico que mapeia uma residência como nós de decisão para simular rotas de evacuação baseadas em riscos e inventário. | [Ver Projeto](./Projeto-engenharia-de-contexto-e-logica-fisica.ipynb) |
+| **Microclima Local** | Implementação de algoritmos para análise e processamento de variáveis ambientais locais. | [Ver Projeto](./Projeto-engenharia-de-contexto-e-logica-fisica.ipynb) |
 
 #### 📊 Manipulação de Dados
 | Projeto | Descrição | Link |
 | :--- | :--- | :---: |
-| **Representação Visual** | Uso de lógica de matrizes para a criação de elementos visuais (emojis) através de manipulação de dados em Python[cite: 2]. | [Ver Projeto](./Projeto-desenhando-emojis-com-dados.ipynb) |
+| **Representação Visual** | Uso de lógica de matrizes para a criação de elementos visuais (emojis) através de manipulação de dados em Python. | [Ver Projeto](./Projeto-desenhando-emojis-com-dados.ipynb) |
 
 ---
 
 ### 🏗 Estrutura do Repositório
-- `root/`: Perfil principal e documentação de carreira[cite: 5].
-- `/projeto-logica-fisica/`: Notebooks de engenharia de contexto e navegação espacial[cite: 1].
-- `/estudos-dados/`: Experimentos com matrizes e representação visual de dados[cite: 2].
+- `root/`: Perfil principal e documentação de carreira.
+- `/projeto-logica-fisica/`: Notebooks de engenharia de contexto e navegação espacial.
+- `/projeto-gestao-estoque/`: Lógica de fluxogramas e automação de inventário.
+- `/estudos-dados/`: Experimentos com matrizes e representação visual de dados.
 
 ---
-*Comprometido com o aprendizado contínuo e a busca por soluções lógicas para os obstáculos da rotina[cite: 1].*
+*Comprometido com o aprendizado contínuo e a busca por soluções lógicas para os obstáculos da rotina.*
