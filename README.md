@@ -11,9 +11,9 @@
 ---
 
 ### 👨‍💻 Sobre
-estou cursando**Análise e Desenvolvimento de Sistemas**[cite: 5]. Com quatro anos de experiência consolidada no setor logístico do Atacadão (Grupo Carrefour), possuo expertise na gestão de fluxos de entrada e saída, conferência de estoque e suporte administrativo[cite: 5, 6].
+Atualmente cursando **Análise e Desenvolvimento de Sistemas**, busco aplicar o raciocínio lógico e a automação de processos em soluções de tecnologia. 
 
-Atualmente, foco em unir minha capacidade analítica e organização técnica ao desenvolvimento de software, utilizando o raciocínio computacional para criar soluções lógicas que otimizam processos e resolvem desafios do mundo físico e digital[cite: 1, 2, 5].
+Com quatro anos de experiência consolidada no setor logístico do Atacadão (Grupo Carrefour), possuo expertise na gestão de fluxos de entrada e saída, conferência de estoque e suporte administrativo a canais de vendas digitais. Minha trajetória profissional me permitiu desenvolver uma forte capacidade analítica e organização técnica, competências que agora direciono para o desenvolvimento de software e engenharia de dados..
 
 * **Habilidades Técnicas:** Python, Lógica de Programação, Gestão de Inventário e Sistemas Internos, Pacote Office Intermediário[cite: 5, 6].
 * **Habilidades Socioemocionais:** Pensamento crítico, resolução de problemas estruturada e comunicação assertiva[cite: 1, 5, 6].
