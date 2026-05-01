@@ -1,21 +1,23 @@
 # Guilherme Silva Ferreira Batista
-> Estudante de Análise e Desenvolvimento de Sistemas
+> Estudante de Análise e Desenvolvimento de Sistemas[cite: 5]
 
 ---
 
 ### 📫 Contato & Redes Sociais
-[![LinkedIn](https://www.linkedin.com/in/guilherme-da-silva-ferreira-batista-6294513b5?utm_source=share_via&utm_content=profile&utm_medium=member_android)
-[![E-mail](Guilhermesilva123159@gmail.com)[cite: 5]
-[![Currículo](https://img.shields.io/badge/Currículo-000000?style=for-the-badge&logo=read-the-docs&logoColor=white)](./guilherme_silva_curriculo.docx)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/guilherme-da-silva-ferreira-batista-6294513b5)
+[![E-mail](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:guilhermesilva123159@gmai.com)
+[![Currículo](https://img.shields.io/badge/Currículo-000000?style=for-the-badge&logo=read-the-docs&logoColor=white)](./guilherme_silva(curriculo)...%20(1)_3.docx)[cite: 5]
 
 ---
 
 ### 👨‍💻 Sobre
-Atualmente cursando **Análise e Desenvolvimento de Sistemas**. Com quatro anos de experiência em operações logísticas e gestão de fluxos no Atacadão (Grupo Carrefour), busco unir minha capacidade analítica e organização técnica ao desenvolvimento de soluções tecnológicas inteligentes[. 
+Atualmente cursando o tecnólogo em **Análise e Desenvolvimento de Sistemas**[cite: 5]. Com uma trajetória de 4 anos no setor logístico e operacional no Atacadão (Grupo Carrefour)[cite: 5], desenvolvi uma forte capacidade analítica e organização técnica aplicada ao gerenciamento de fluxos e sistemas internos[cite: 5].
 
-* **Foco Atual:** Desenvolvimento de lógica de programação aplicada a contextos físicos e processamento de dados.
-* **Habilidades Técnicas:** Python, Pacote Office Intermediário, Lógica de Programação e Gestão de Inventário.
-* **Habilidades Socioemocionais:** Pensamento crítico, resolução de problemas estruturada e comunicação assertiva.
+Hoje, foco minha transição de carreira no desenvolvimento de soluções tecnológicas que utilizam o raciocínio computacional para resolver problemas complexos do mundo físico e digital[cite: 1, 2].
+
+* **Habilidades Técnicas:** Python, Lógica de Programação, Gestão de Fluxos e Inventário, Pacote Office Intermediário[cite: 1, 2, 5].
+* **Habilidades Socioemocionais:** Resolução de problemas estruturada, pensamento crítico e foco em precisão operacional[cite: 1, 5].
+* **Interesses:** Desenvolvimento Backend, Engenharia de Dados e Automação de Processos Administrativos[cite: 5].
 
 ---
 
@@ -24,9 +26,9 @@ Atualmente cursando **Análise e Desenvolvimento de Sistemas**. Com quatro anos 
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white)
 
-#### 🗄️ Ferramentas e Ambientes
+#### 🗄️ Ambientes e Produtividade
 ![Google Colab](https://img.shields.io/badge/Colab-F9AB00?style=for-the-badge&logo=googlecolab&color=525252)
-![Microsoft Excel](https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
+![Excel](https://img.shields.io/badge/Microsoft_Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)[cite: 5]
 
 ---
 
@@ -35,17 +37,20 @@ Atualmente cursando **Análise e Desenvolvimento de Sistemas**. Com quatro anos 
 #### 🗺️ Engenharia de Contexto e Lógica Física
 | Projeto | Descrição | Link |
 | :--- | :--- | :---: |
-| **Navegação Espacial** | Algoritmo que mapeia uma residência como nós de decisão para simular rotas de evacuação seguras[cite: 1]. | [Ver Projeto](./Projeto-engenharia-de-contexto-e-logica-fisica.ipynb) |
-| **Microclima Local** | Estudo e implementação de código para processamento de variáveis ambientais e climáticas[cite: 1]. | [Ver Projeto](./Projeto-engenharia-de-contexto-e-logica-fisica.ipynb) |
+| **Navegação de Emergência** | Motor lógico que mapeia uma residência como nós de decisão para simular rotas de evacuação baseadas em riscos e inventário[cite: 1]. | [Ver Projeto](./Projeto-engenharia-de-contexto-e-logica-fisica.ipynb) |
+| **Simulação de Microclima** | Implementação de algoritmos para análise e processamento de variáveis ambientais locais[cite: 1]. | [Ver Projeto](./Projeto-engenharia-de-contexto-e-logica-fisica.ipynb) |
 
-#### 📊 Visualização e Estrutura de Dados
+#### 📊 Manipulação de Dados
 | Projeto | Descrição | Link |
 | :--- | :--- | :---: |
-| **Data Emojis** | Uso de lógica de programação e matrizes de dados para a criação de representações visuais[cite: 2]. | [Ver Projeto](./Projeto-desenhando-emojis-com-dados.ipynb) |
+| **Representação Visual** | Uso de lógica de matrizes para a criação de elementos visuais (emojis) através de manipulação de dados em Python[cite: 2]. | [Ver Projeto](./Projeto-desenhando-emojis-com-dados.ipynb) |
 
 ---
 
 ### 🏗 Estrutura do Repositório
-- `root/`: Perfil principal e documentação de carreira.
-- `/projeto-logica-fisica/`: Notebooks contendo a lógica de navegação e microclima.
-- `/projeto-visualizacao-dados/`: Experimentos com representação de dados e matrizes.
+- `root/`: Perfil principal e documentação de carreira[cite: 5].
+- `/projeto-logica-fisica/`: Notebooks de engenharia de contexto e navegação espacial[cite: 1].
+- `/estudos-dados/`: Experimentos com matrizes e representação visual de dados[cite: 2].
+
+---
+*Comprometido com o aprendizado contínuo e a busca por soluções lógicas para os obstáculos da rotina[cite: 1].*
