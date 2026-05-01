@@ -8,6 +8,10 @@
 [![E-mail](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:guilhermesilva123159@gmai.com)
 [![Curriculo](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/dark60895-cpu)
 
+https://(github.com/dark60895-cpu/Portifolio-Guilherme-da-silva-ferreira-batista/blob/8bdc9c8d0b0f38a487137e5968b7671e17ba938f/guilherme_silva(curriculo)...%20(1).docx
+
+[![Currículo](https://img.shields.io/badge/CURRÍCULO-100000?style=for-the-badge&logo=googledocs&logoColor=white)] [![Curriculo](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/dark60895-cpu)
+
 
 ---
 
