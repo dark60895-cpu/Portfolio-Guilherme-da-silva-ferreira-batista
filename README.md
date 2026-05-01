@@ -6,7 +6,7 @@
 ### 📫 Contato & Redes Sociais
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/guilherme-da-silva-ferreira-batista-6294513b5)
 [![E-mail](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:guilhermesilva123159@gmai.com)
-[![Currículo](https://img.shields.io/badge/Currículo-000000?style=for-the-badge&logo=read-the-docs&logoColor=white)](./guilherme_silva_curriculo.docx)
+[![Currículo](https://github.com/dark60895-cpu/Portifolio-Guilherme-da-silva-ferreira-batista/blob/f0769258e3f12c9b5474af34970bcdcbf1daf42d/guilherme_silva(curriculo)...%20(1).docx)
 
 ---
 
