@@ -23,21 +23,21 @@ Atualmente, foco em unir minha capacidade analítica e organização técnica ao
 
 ### 📂 Portfólio de Projetos
 
-| **Engenharia de Soluções Lógicas** | Modelagem de problemas complexos através de algoritmos estruturados. | [Ver Projeto](https://github.com/dark60895-cpu/Portifolio-Guilherme-da-silva-ferreira-batista/tree/50ae7a386f4fa42e0ce5147a47386fad3d5a1b14/Projeto-engenharia-de-solu%C3%A7%C3%B5es-logicas) |
-| **Traduzindo Lógica para Python** | Implementação técnica de fluxogramas e pseudocódigos na linguagem Python. | [Ver Projeto](https://github.com/dark60895-cpu/Portifolio-Guilherme-da-silva-ferreira-batista/tree/50ae7a386f4fa42e0ce5147a47386fad3d5a1b14/Projeto-traduzindo-logica-para-python) |
-| **Modularização** | Organização de sistemas em módulos independentes para facilitar a manutenção e escalabilidade. | [Ver Projeto](https://github.com/dark60895-cpu/Portifolio-Guilherme-da-silva-ferreira-batista/tree/50ae7a386f4fa42e0ce5147a47386fad3d5a1b14/Projeto-Modulariza%C3%A7%C3%A3o) |
+### 🛠️ Projetos e Experimentos
 
-#### 🌐 Contexto Físico e Auditoria de Dados
-| Projeto | Descrição | Link |
-| :--- | :--- | :---: |
-| ### 🛠️ Projetos e Experimentos
-
+#### 🧠 Lógica e Desenvolvimento
 | Projeto | Descrição | Repositório |
 | :--- | :--- | :--- |
-| **Engenharia de Contexto e Lógica Física** | Algoritmo de navegação espacial que mapeia ambientes reais em nós de decisão. | [Acessar Projeto](https://github.com/dark60895-cpu/Portifolio-Guilherme-da-silva-ferreira-batista/tree/main/Projeto-engenharia-de-contexto-e-logica-fisica) |
-| **Auditoria de Dados** | Sistema focado na verificação de integridade e processamento de grandes volumes de dados. | [Acessar Projeto](https://github.com/dark60895-cpu/Portifolio-Guilherme-da-silva-ferreira-batista/tree/main/Projeto-algoritmo-de-auditoria-de-dados) |
-| **Desenhando Emojis com Dados** | Exploração de lógica de matrizes para representação visual e manipulação de dados. | [Acessar Projeto](https://github.com/dark60895-cpu/Portifolio-Guilherme-da-silva-ferreira-batista/tree/main/Projeto-algoritmo-de-auditoria-de-dados) |
----
+| **Engenharia de Soluções Lógicas** | Modelagem de problemas complexos através de algoritmos estruturados. | [Ver Projeto](https://github.com/dark60895-cpu/Portifolio-Guilherme-da-silva-ferreira-batista/tree/main/Projeto-engenharia-de-soluções-logicas) |
+| **Traduzindo Lógica para Python** | Implementação técnica de fluxogramas e pseudocódigos na linguagem Python. | [Ver Projeto](https://github.com/dark60895-cpu/Portifolio-Guilherme-da-silva-ferreira-batista/tree/main/Projeto-traduzindo-logica-para-python) |
+| **Modularização** | Organização de sistemas em módulos independentes para facilitar a manutenção e escalabilidade. | [Ver Projeto](https://github.com/dark60895-cpu/Portifolio-Guilherme-da-silva-ferreira-batista/tree/main/Projeto-Modularização) |
+
+#### 🌐 Contexto Físico e Auditoria de Dados
+| Projeto | Descrição | Repositório |
+| :--- | :--- | :--- |
+| **Engenharia de Contexto e Lógica Física** | Algoritmo de navegação espacial que mapeia ambientes reais em nós de decisão. | [Ver Projeto](https://github.com/dark60895-cpu/Portifolio-Guilherme-da-silva-ferreira-batista/tree/main/Projeto-engenharia-de-contexto-e-logica-fisica) |
+| **Auditoria de Dados** | Sistema focado na verificação de integridade e processamento de grandes volumes de dados. | [Ver Projeto](https://github.com/dark60895-cpu/Portifolio-Guilherme-da-silva-ferreira-batista/tree/main/Projeto-algoritmo-de-auditoria-de-dados) |
+| **Desenhando Emojis com Dados** | Exploração de lógica de matrizes para representação visual e manipulação de dados. | [Ver Projeto](https://github.com/dark60895-cpu/Portifolio-Guilherme-da-silva-ferreira-batista/tree/main/Projeto-algoritmo-de-auditoria-de-dados) |
 
 ### 🏗 Estrutura do Repositório
 - `root/`: Perfil principal, currículo e documentação de portfólio[cite: 5].
