@@ -1,5 +1,5 @@
 # Guilherme Silva Ferreira Batista
-> Estudante de Análise e Desenvolvimento de Sistemas | Auxiliar Administrativo & Logística[cite: 5, 6]
+> Estudante de Análise e Desenvolvimento de Sistemas | Auxiliar Administrativo & Logística
 
 ---
 
@@ -15,9 +15,9 @@ Atualmente cursando **Análise e Desenvolvimento de Sistemas**, busco aplicar o 
 
 Com quatro anos de experiência consolidada no setor logístico do Atacadão (Grupo Carrefour), possuo expertise na gestão de fluxos de entrada e saída, conferência de estoque e suporte administrativo a canais de vendas digitais. Minha trajetória profissional me permitiu desenvolver uma forte capacidade analítica e organização técnica, competências que agora direciono para o desenvolvimento de software e engenharia de dados..
 
-* **Habilidades Técnicas:** Python, Lógica de Programação, Gestão de Inventário e Sistemas Internos, Pacote Office Intermediário[cite: 5, 6].
-* **Habilidades Socioemocionais:** Pensamento crítico, resolução de problemas estruturada e comunicação assertiva[cite: 1, 5, 6].
-* **Objetivo:** Atuar na área tecnológica ou administrativa, contribuindo com precisão técnica e melhoria contínua de processos[cite: 5].
+* **Habilidades Técnicas:** Python, Lógica de Programação, Gestão de Inventário e Sistemas Internos, Pacote Office Intermediário.
+* **Habilidades Socioemocionais:** Pensamento crítico, resolução de problemas estruturada e comunicação assertiva.
+* **Objetivo:** Atuar na área tecnológica ou administrativa, contribuindo com precisão técnica e melhoria contínua de processos.
 
 ---
 
@@ -40,8 +40,8 @@ Com quatro anos de experiência consolidada no setor logístico do Atacadão (Gr
 | **Desenhando Emojis com Dados** | Exploração de lógica de matrizes para representação visual e manipulação de dados. | [Ver Projeto](https://github.com/dark60895-cpu/Portifolio-Guilherme-da-silva-ferreira-batista/tree/main/Projeto-algoritmo-de-auditoria-de-dados) |
 
 ### 🏗 Estrutura do Repositório
-- `root/`: Perfil principal, currículo e documentação de portfólio[cite: 5].
-- `/projeto-nome/`: Pasta contendo o código-fonte, documentação e README específico de cada projeto[cite: 1, 2].
+- `root/`: Perfil principal, currículo e documentação de portfólio.
+- `/projeto-nome/`: Pasta contendo o código-fonte, documentação e README específico de cada projeto.
 
 ---
-*Este portfólio demonstra o compromisso com a agilidade, precisão e busca por soluções lógicas para os desafios operacionais e tecnológicos[cite: 5, 6].*
+*Este portfólio demonstra o compromisso com a agilidade, precisão e busca por soluções lógicas para os desafios operacionais e tecnológicos.*
