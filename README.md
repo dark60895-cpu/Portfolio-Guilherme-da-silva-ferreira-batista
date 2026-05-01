@@ -11,7 +11,7 @@
 ---
 
 ### 👨‍💻 Sobre
-Sou graduando em **Análise e Desenvolvimento de Sistemas**[cite: 5]. Com quatro anos de experiência consolidada no setor logístico do Atacadão (Grupo Carrefour), possuo expertise na gestão de fluxos de entrada e saída, conferência de estoque e suporte administrativo[cite: 5, 6].
+estou cursando**Análise e Desenvolvimento de Sistemas**[cite: 5]. Com quatro anos de experiência consolidada no setor logístico do Atacadão (Grupo Carrefour), possuo expertise na gestão de fluxos de entrada e saída, conferência de estoque e suporte administrativo[cite: 5, 6].
 
 Atualmente, foco em unir minha capacidade analítica e organização técnica ao desenvolvimento de software, utilizando o raciocínio computacional para criar soluções lógicas que otimizam processos e resolvem desafios do mundo físico e digital[cite: 1, 2, 5].
 
