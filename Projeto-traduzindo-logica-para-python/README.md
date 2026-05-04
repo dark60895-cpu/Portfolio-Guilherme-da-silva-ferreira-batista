@@ -33,6 +33,14 @@ O projeto alcançou resultados sólidos em ambiente de teste, demonstrando a efi
 * **Visualização de Clusters**: Implementação de gráficos que demonstram o agrupamento de filmes por afinidade de gênero e comportamento.
 
 ## 🔧 Como Executar
-1. Clone o repositório:
-   ```bash
-git clone (https://github.com/seu-usuario/seu-repositorio.git](https://github.com/dark60895-cpu/Portifolio-Guilherme-da-silva-ferreira-batista)
+# 1. Clone o repositório
+[git clone](https://github.com/dark60895-cpu/Portifolio-Guilherme-da-silva-ferreira-batista)
+
+# 2. Acesse a pasta do projeto
+cd Portifolio-Guilherme-da-silva-ferreira-batista
+
+# 3. Instale as dependências
+pip install -r requirements.txt
+
+# 4. Inicie o Jupyter Notebook
+jupyter notebook
