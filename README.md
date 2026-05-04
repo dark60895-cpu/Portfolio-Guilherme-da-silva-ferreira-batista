@@ -48,15 +48,15 @@ root/: Arquivo de apresentação principal.
 
 - `/projeto-algoritmo-de-auditoria-de-dados/`: Algoritmo de auditoria e detecção de anomalias.
 
--`/projeto-engenharia-de-solucoes-logicas/`-: Decomposição e resolução de problemas complexos.
+- `/projeto-engenharia-de-solucoes-logicas/`: Decomposição e resolução de problemas complexos.
 
--`/projeto-modularizacao/:`-:Organização de código em funções independentes.
+- `/projeto-modularizacao/:`:Organização de código em funções independentes.
 
--`/projeto-traduzindo-logica-para-python/`-: Quatro programas completos em Python.
+- `/projeto-traduzindo-logica-para-python/`: Quatro programas completos em Python.
 
--`/projeto-engenharia-de-contexto-e-logica-fisica/`-: Análise de microclima e simulador de evacuação.
+-`/projeto-engenharia-de-contexto-e-logica-fisica/`: Análise de microclima e simulador de evacuação.
 
--`/projeto-desenhando-emojis-com-dados/:`-: Arte visual com matrizes e matplotlib.
+- `/projeto-desenhando-emojis-com-dados/:`: Arte visual com matrizes e matplotlib.
 
 ---
 *Este portfólio demonstra o compromisso com a agilidade, precisão e busca por soluções lógicas para os desafios operacionais e tecnológicos.*
