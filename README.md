@@ -42,6 +42,7 @@ Com quatro anos de experiência consolidada no setor logístico do Atacadão (Gr
 
 ### 🏗 Estrutura do Repositório
 - `root/`: Perfil principal, currículo e documentação de portfólio.
+
 - `/projeto-nome/`: Pasta contendo o código-fonte, documentação e README específico de cada projeto.
 root/: Arquivo de apresentação principal.
 
