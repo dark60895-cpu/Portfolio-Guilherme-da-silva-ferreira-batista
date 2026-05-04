@@ -1,46 +1,48 @@
-# 📊 Auditoria de Dados e Análise de Outliers
+# 📊 Algoritmo de Auditoria de Dados (EX1)
 
-[![Python Version](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
-[![Field](https://img.shields.io/badge/campo-Auditoria%20Financeira-green.svg)](#)
+[![Python Version](https://img.shields.io/badge/python-3.x-blue.svg)](https://www.python.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-Este projeto explora o impacto de discrepâncias de dados (outliers) na análise de médias e a importância da segurança lógica em sistemas de auditoria financeira.
-
----
-
-## 🔍 1. Investigação e Descoberta
-
-A fase inicial foca em conceitos estatísticos e regras de negócio essenciais para a fidedignidade dos dados.
-
-*   **Discrepância de Dados (Outliers):** Valores significativamente fora da curva padrão que podem distorcer a média aritmética. Por exemplo, no conjunto $(100, 120, 110)$, a média é $110$; a inclusão de um valor extremo como $5000$ "puxa" a média para cima, deixando de representar a maioria dos dados.
-*   **Normalização:** Técnica de ignorar valores extremos (máximos e mínimos) para obter um resultado que represente o comportamento "normal" do grupo, livre de interferências de casos fora do padrão.
-*   **Margem de Tolerância (Distorção Tolerável):** Representa o limite máximo de erro ou irregularidade que um auditor aceita em uma transação antes que isso altere a opinião sobre a fidedignidade das demonstrações financeiras.
+Este projeto foi desenvolvido para explorar os conceitos de **Análise de Dados**, **Segurança Financeira** e **Tratamento de Exceções** utilizando Python. O foco principal foi entender como valores atípicos (*outliers*) impactam médias e como garantir a integridade de sistemas críticos.
 
 ---
 
-## 💻 2. Desenvolvimento em Python
+## 📖 Parte 1: Investigação e Descoberta
 
-Implementação de um algoritmo de validação de vendas com base em limites de segurança.
+Antes da codificação, foram analisados conceitos fundamentais de auditoria:
+
+*   **Discrepância de Dados (Outliers):** Valores que fogem significativamente do padrão do grupo. Um único valor extremamente alto ou baixo pode distorcer a média, fazendo com que ela não represente a maioria dos dados.
+*   **Normalização:** Técnica de ignorar valores extremos (máximos e mínimos) para obter um resultado que represente o comportamento "normal" do grupo sem interferências externas.
+*   **Margem de Tolerância (Distorção Tolerável):** Em auditoria, é o limite máximo de erro ou irregularidade aceitável em uma transação sem que isso comprometa a fidedignidade das demonstrações financeiras.
+
+---
+
+## 💻 Parte 2: Desenvolvimento em Python
+
+O algoritmo abaixo simula uma auditoria básica de vendas, comparando a média de transações com um limite de segurança.
 ```python
-# Configuração de Auditoria
+# Configuração do limite
 limite_seguranca = 10000
 
-# Entrada de Dados
+# Entrada de dados
 num1 = float(input("Venda 01: "))
 num2 = float(input("Venda 02: "))
 num3 = float(input("Venda 03: "))
 
-# Processamento da Média
+# Cálculo da média
 media = (num1 + num2 + num3) / 3
 
-# Validação Lógica
+# Lógica de Auditoria
 if media >= limite_seguranca:
     print("Limite de segurança atingido")
 else:
     print("Sistema em quarentena")
 
-# Relatório de Tipagem e Depuração
+# Relatório de Diagnóstico
 print("-" * 40)
 print(f"Venda 01: {num1} | Tipo: {type(num1)}")
+print(f"Venda 02: {num2} | Tipo: {type(num2)}")
+print(f"Venda 03: {num3} | Tipo: {type(num3)}")
 print(f"Média: {media:.2f} | Tipo: {type(media)}")
 print(f"Limite: {limite_seguranca} | Tipo: {type(limite_seguranca)}")
 print("-" * 40)
