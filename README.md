@@ -46,7 +46,7 @@ Com quatro anos de experiência consolidada no setor logístico do Atacadão (Gr
 - `/projeto-nome/`: Pasta contendo o código-fonte, documentação e README específico de cada projeto.
 root/: Arquivo de apresentação principal.
 
--`/projeto-algoritmo-de-auditoria-de-dados/`: Algoritmo de auditoria e detecção de anomalias.
+- `/projeto-algoritmo-de-auditoria-de-dados/`: Algoritmo de auditoria e detecção de anomalias.
 
 -`/projeto-engenharia-de-solucoes-logicas/`-: Decomposição e resolução de problemas complexos.
 
