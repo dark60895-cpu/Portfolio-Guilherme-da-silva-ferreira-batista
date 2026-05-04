@@ -1,47 +1,56 @@
-# 🗺️ Engenharia de Contexto e Lógica Física
+# 🚀 Portfólio de Lógica de Programação e Auditoria de Dados
 
-## 📝 Descrição do Projeto
-Este projeto explora a interseção entre o mundo físico e o raciocínio computacional, focando na tradução de ambientes reais em modelos lógicos de decisão[cite: 1, 2]. Através do mapeamento de uma residência e da simulação de microclimas, o objetivo foi desenvolver algoritmos capazes de gerenciar navegação espacial e protocolos de evacuação sob condições de risco[cite: 1, 2].
+[![Python Version](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
+[![Colab](https://img.shields.io/badge/Open%20in-Colab-orange.svg)](https://colab.research.google.com/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-O projeto foi desenvolvido como parte de um estudo sobre como a programação ajuda a estruturar problemas do dia a dia, transformando obstáculos físicos em variáveis lógicas[cite: 1, 2].
-
----
-
-## 🏗️ Estrutura do Projeto
-O trabalho está dividido em três componentes fundamentais:
-
-### 1. Algoritmo do Microclima Local 🌡️
-Pesquisa e implementação de código para monitoramento e análise de variáveis ambientais locais[cite: 1, 2].
-
-### 2. Navegação e Evacuação Espacial 🏃‍♂️
-Mapeamento lógico de uma casa com 4 cômodos principais, tratando cada ponto como um **nó de decisão**[cite: 1, 2]:
-*   **Quarto 1:** Porta acessível (com chave), sem saída de emergência[cite: 1, 2].
-*   **Quarto 2:** Inclui uma varanda que atua como opção crítica de socorro (risco de acidente)[cite: 1, 2].
-*   **Sala/Cozinha:** Ambiente amplo integrado com a principal porta de entrada e saída[cite: 1, 2].
-*   **Banheiro:** Porta acessível[cite: 1, 2].
-
-### 3. Reflexão Crítica 🧠
-Análise sobre o desafio de sintetizar a complexidade física em regras binárias e o impacto do raciocínio computacional na resolução de problemas cotidianos[cite: 1, 2].
+Este repositório reúne uma série de desafios práticos desenvolvidos para explorar a interseção entre a lógica computacional, segurança de dados e aplicações no mundo real.
 
 ---
 
-## ⚙️ Lógica de Implementação
-*   **Dicionários de Estado:** Utilizados para checar simultaneamente se uma porta existe, se está trancada e se o agente possui a chave no inventário[cite: 1, 2].
-*   **Avaliação de Risco:** Implementação de condições que avaliam o risco baseado na "energia" do agente, simulando escolhas críticas em zonas como a varanda[cite: 1, 2].
-*   **Decomposição de Problemas:** Transformação da "geografia" da casa em uma sequência de verificações de segurança e prioridades[cite: 1, 2].
+## 📂 Projetos e Exercícios
+
+### 1. Sistema de Gestão de Inventário e PDV (Ponto de Venda)
+Um sistema modular focado na integridade transacional e controle de estoque.
+*   **Módulo 1:** Validação de entradas e disponibilidade de produtos.
+*   **Módulo 2:** Processamento de baixa e algoritmo otimizado de troco (utilizando `%` e `//`).
+*   **Módulo 3:** Atualização de persistência de dados e emissão de comprovantes.
+
+### 2. Algoritmo de Auditoria de Dados (Outliers)
+Estudo sobre como valores extremos podem distorcer análises financeiras.
+*   **Conceitos:** Normalização de dados, Margem de Tolerância e Testes de Estresse.
+*   **Segurança:** Reflexão sobre os riscos de variáveis globais em sistemas bancários e a importância da proteção de dados críticos.
+
+### 3. Navegação Espacial e Evacuação Lógica
+Mapeamento físico de uma residência convertido em um algoritmo de decisão para situações de emergência.
+*   **Nós de Decisão:** Cada cômodo é tratado como um objeto com propriedades específicas (saídas, trincas, itens necessários).
+*   **Lógica de Risco:** Condicionais que avaliam variáveis ambientais e "energia" do agente para decidir a melhor rota de fuga.
 
 ---
 
-## 🚀 Tecnologias Utilizadas
-*   **Linguagem:** Python 3[cite: 1, 2]
-*   **Plataforma:** Google Colab / Jupyter Notebook[cite: 1, 2]
-*   **Ferramentas:** `Projeto-engenharia-de-contexto-e-logica-fisica.ipynb`[cite: 1, 2]
+## 🧠 Reflexões sobre Pensamento Computacional
+
+A programação vai além do código; é uma ferramenta de reestruturação mental. Através destes exercícios, desenvolvi três pilares fundamentais:
+
+1.  **Decomposição:** A habilidade de quebrar um problema físico complexo (como uma evacuação) em pequenas regras lógicas e binárias.
+2.  **Abstração:** Transformar objetos do mundo real (portas, varandas, chaves) em variáveis e dicionários que o computador consiga processar.
+3.  **Antecipação de Falhas:** Entender que pequenos erros de sintaxe ou lógica refletem desconexões entre a intenção humana e a execução da máquina, exigindo uma análise analítica constante.
 
 ---
 
-## 🔗 Links de Acesso
-O código completo e as simulações podem ser encontrados nos notebooks abaixo:
-*   [Notebook Principal - Google Colab](https://colab.research.google.com/drive/1tbcFBWzeAJIxXB-Qn8XYxA5B38lzFp8Y?usp=sharing)[cite: 1, 2]
+## 💻 Tecnologias Utilizadas
+
+*   **Linguagem Principal:** Python 3.10+
+*   **Ambiente de Desenvolvimento:** Google Colab / VS Code
+*   **Estruturas de Dados:** Dicionários, Listas, Tuplas e Manipulação de Floats.
+*   **Versionamento:** Git & GitHub
 
 ---
-*Este projeto demonstra que o raciocínio computacional treina a mente para ser mais analítica e buscar soluções lógicas antes mesmo das falhas acontecerem[cite: 1, 2].*
+
+## 🚀 Como Executar
+
+Cada exercício possui um notebook específico ou script. Para rodar localmente:
+
+1. Clone o repositório:
+   ```bash
+   git clone [https://github.com/seu-usuario/seu-repositorio.git](https://github.com/seu-usuario/seu-repositorio.git)
