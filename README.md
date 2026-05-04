@@ -43,6 +43,13 @@ Com quatro anos de experiência consolidada no setor logístico do Atacadão (Gr
 ### 🏗 Estrutura do Repositório
 - `root/`: Perfil principal, currículo e documentação de portfólio.
 - `/projeto-nome/`: Pasta contendo o código-fonte, documentação e README específico de cada projeto.
+root/: Arquivo de apresentação principal.
+-`/projeto-algoritmo-de-auditoria-de-dados/`-: Algoritmo de auditoria e detecção de anomalias.
+-`/projeto-engenharia-de-solucoes-logicas/`-: Decomposição e resolução de problemas complexos.
+-`/projeto-modularizacao/:`-:Organização de código em funções independentes.
+-`/projeto-traduzindo-logica-para-python/`-: Quatro programas completos em Python.
+-`/projeto-engenharia-de-contexto-e-logica-fisica/`-: Análise de microclima e simulador de evacuação.
+-`/projeto-desenhando-emojis-com-dados/:`-: Arte visual com matrizes e matplotlib.
 
 ---
 *Este portfólio demonstra o compromisso com a agilidade, precisão e busca por soluções lógicas para os desafios operacionais e tecnológicos.*
