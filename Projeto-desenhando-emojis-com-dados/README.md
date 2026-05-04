@@ -1,3 +1,5 @@
+# Projeto desenhando emojis com dados
+
 # 🎨 Python Matrix Suite: Processamento de Imagem e Dados Musicais
 
 Este repositório reúne uma série de algoritmos em Python focados na manipulação de **estruturas de dados complexas**, matrizes multidimensionais e processamento de **Pixel Art** utilizando bibliotecas de visualização científica.
