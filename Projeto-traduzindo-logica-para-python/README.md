@@ -1,4 +1,5 @@
-# 🐍 Reflexões sobre Lógica de Programação com Python
+# 🐍 Projeto traduzindo logica para python
+
 
 Este repositório contém notas de estudo e insights sobre comportamentos específicos da linguagem Python, focando em tipagem de dados e estruturas de repetição.
 
