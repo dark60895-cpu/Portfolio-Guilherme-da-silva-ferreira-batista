@@ -1,3 +1,4 @@
+# Projeto engenharia de soluções logicas
 # 🏥 Hospital Triage Simulation: Resilient Engine
 > **Projeto de Automação de Triagem baseada no Protocolo de Manchester**[cite: 1]
 
