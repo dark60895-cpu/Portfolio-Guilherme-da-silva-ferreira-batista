@@ -1,97 +1,54 @@
-Parte 1: O Algoritmo do Microclima Local
-Este código simula como as variáveis ambientais (temperatura, umidade) afetam os cômodos da sua casa.
-
-Python
-# --- Configuração do Microclima ---
-cocomos = ["Quarto 1", "Quarto 2", "Sala/Cozinha", "Banheiro"]
-
-def simular_microclima(temperatura_externa, umidade_externa):
-    dados_casa = {}
-    for comodo in cocomos:
-        # Lógica: A Sala/Cozinha por ser ampla retém menos calor
-        # O Quarto 2 com varanda tem maior influência externa
-        if comodo == "Sala/Cozinha":
-            temp_ajustada = temperatura_externa * 0.95
-        elif comodo == "Quarto 2":
-            temp_ajustada = temperatura_externa * 1.05
-        else:
-            temp_ajustada = temperatura_externa
-            
-        dados_casa[comodo] = {
-            "temperatura": round(temp_ajustada, 2),
-            "umidade": umidade_externa
-        }
-    return dados_casa
-
-# Teste da Parte 1
-clima_atual = simular_microclima(30, 60)
-print("Dados do Microclima:", clima_atual)
-Parte 2: Navegação e Evacuação Espacial
-Este código implementa a lógica de nós de decisão, inventário e o risco da varanda que você descreveu.
-
-Python
-# --- Configuração da Casa e Regras de Evacuação ---
-layout_casa = {
-    'Quarto 1': {'conecta': 'Sala/Cozinha', 'chave': True},
-    'Quarto 2': {'conecta': 'Sala/Cozinha', 'chave': True, 'emergencia': 'Varanda'},
-    'Sala/Cozinha': {'conecta': 'SAIDA_PRINCIPAL', 'chave': False},
-    'Banheiro': {'conecta': 'Sala/Cozinha', 'chave': False},
-    'Varanda': {'conecta': 'RUA', 'risco': 'ALTO'}
-}
-
-def plano_evacuacao(local_atual, inventario, energia):
-    print(f"--- Iniciando evacuação de: {local_atual} ---")
-    
-    # 1. Tentar Saída Principal pela Sala
-    if local_atual == 'Sala/Cozinha':
-        print("Caminho livre! Saída principal alcançada.")
-        return True
-    
-    # 2. Verificar se está em um quarto com chave
-    info = layout_casa[local_atual]
-    if info['chave'] and 'chave_casa' not in inventario:
-        print(f"Alerta: Você precisa pegar a chave no {local_atual} primeiro!")
-        inventario.append('chave_casa')
-    
-    # 3. Lógica Crítica: Varanda (Quarto 2)
-    if 'emergencia' in info:
-        print(f"Caminho alternativo detectado: {info['emergencia']}")
-        if energia < 50:
-            print("Energia BAIXA. Pular da varanda é muito arriscado! Tente a Sala.")
-        else:
-            print("Energia SUFICIENTE. Evacuação de emergência pela varanda realizada com sucesso (Risco de acidente).")
-            return True
-
-    # 4. Movimentação para a Sala
-    proximo_passo = info['conecta']
-    print(f"Movendo de {local_atual} para {proximo_passo}...")
-    return plano_evacuacao(proximo_passo, inventario, energia)
-
-# --- Teste de Simulação ---
-meu_inventario = []
-minha_energia = 70  # Altere para < 50 para ver a mudança de comportamento
-
-plano_evacuacao('Quarto 2', meu_inventario, minha_energia)
+Parte 1: O Algoritmo do Microclima Local (Pesquisa + Código 1)
 
 
-Casa com 4 cômodos
+Codigo:
+https://colab.research.google.com/drive/1tbcFBWzeAJIxXB-Qn8XYxA5B38lzFp8Y?usp=sharing
+
+
+
+Parte 2: Navegação e Evacuação Espacial (Avaliação + Código 2)
+
+
+Codigo:
+https://colab.research.google.com/drive/1tbcFBWzeAJIxXB-Qn8XYxA5B38lzFp8Y?usp=sharing
+
+
+
+Casa com 4 cômodos 
+
+
 
 principais:
 
- Quarto 1: tem uma porta (tem chave mas ela é acessível, nunca estar fechado) não tem saída de emergencia
- Quarto 2: tem uma porta (tem chave, mas ela é acessível, nunca estar fechado) e onde tem a varanda que tem a porta de entrada para a varanda, ela não serve como uma porta de emergência, mas em caso e de urgência se vc pular vc pode se acidentar, mas essa seria uma única opção pra buscar socorro
- Sala/Cozinha (integrados funcionam como 1 ambiente amplo), nesse cômodo tem uma única porta de entrada e saída
- Banheiro ( tem uma porta acessivel)
+
+
+1.      Quarto 1: tem uma porta (tem chave mas ela é acessível, nunca estar fechado) não tem saída de emergencia
+
+2.      Quarto 2: tem uma porta (tem chave, mas ela é acessível, nunca estar fechado) e onde tem a varanda que tem a porta de entrada para a varanda, ela não serve como uma porta de emergência, mas em caso e de urgência se vc pular vc pode se acidentar, mas essa seria uma única opção pra buscar socorro
+
+3.      Sala/Cozinha (integrados funcionam como 1 ambiente amplo), nesse cômodo tem uma única porta de entrada e saída
+
+4.      Banheiro ( tem uma porta acessivel)
+
+
+
+
+
 Parte 3: Reflexão Crítica (Além do Código)
+
 
 Parágrafo 1
 
-Durante o mapeamento físico da minha casa, percebi que o trajeto de evacuação depende de variáveis ambientais e recursos disponíveis. Notei que obstáculos reais, como portas trancadas ou zonas de risco como a varanda, exigem uma tomada de decisão lógica que vai além do simples caminhar. Para traduzir isso, entendi que cada ponto da casa precisa ser tratado como um nó de decisão.
+ Durante o mapeamento físico da minha casa, percebi que o trajeto de evacuação depende de variáveis ambientais e recursos disponíveis. Notei que obstáculos reais, como portas trancadas ou zonas de risco como a varanda, exigem uma tomada de decisão lógica que vai além do simples caminhar. Para traduzir isso, entendi que cada ponto da casa precisa ser tratado como um nó de decisão.
+
+
 
 Parágrafo 2
 
 Ao tentar transformar portas e corredores em variáveis lógicas, o maior desafio foi sintetizar a complexidade física em regras binárias. Percebi que uma porta no mundo real tem vários estados, então precisei usar dicionários para que o código pudesse checar simultaneamente se ela existe, se está trancada e se o agente possui o item correto no inventário. Outro ponto difícil foi a lógica da varanda no Quarto 2; tive que criar uma condição que avalia o risco baseado na energia, simulando uma escolha crítica. Isso me mostrou que, na programação, a "geografia" da casa acaba virando uma sequência de verificações de segurança e prioridades.
 
+
+
 Parágrafo 3
 
-Essa experiência me fez refletir que, no dia a dia, aprender a programar ajuda a enxergar os problemas de forma muito mais estruturada. Percebi que situações comuns, como planejar uma tarefa ou resolver um imprevisto, funcionam como um algoritmo: você precisa decompor o desafio em partes menores, avaliar os recursos que tem (tempo, esforço) e decidir o melhor caminho. No fim das contas, esse projeto me mostrou que o raciocínio computacional vai além das telas; ele treina a mente para ser mais analítica e buscar soluções lógicas para os obstáculos da rotina, ajudando a prever falhas antes mesmo de elas acontecerem.
+ Essa experiência me fez refletir que, no dia a dia, aprender a programar ajuda a enxergar os problemas de forma muito mais estruturada. Percebi que situações comuns, como planejar uma tarefa ou resolver um imprevisto, funcionam como um algoritmo: você precisa decompor o desafio em partes menores, avaliar os recursos que tem (tempo, esforço) e decidir o melhor caminho. No fim das contas, esse projeto me mostrou que o raciocínio computacional vai além das telas; ele treina a mente para ser mais analítica e buscar soluções lógicas para os obstáculos da rotina, ajudando a prever falhas antes mesmo de elas acontecerem.
