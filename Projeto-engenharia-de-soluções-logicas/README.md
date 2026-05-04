@@ -37,4 +37,4 @@ O sistema segue a seguinte ordem de execução:
 4. **Fallback:** Verificação final de integridade do processo.
 
 ---
-[Voltar ao início]([https://github.com/Matheus-Montagner](https://github.com/dark60895-cpu/Portifolio-Guilherme-da-silva-ferreira-batista))
+[Voltar ao início]([https://github.com/Matheus-Montagner](https://github.com/dark60895-cpu/Portifolio-Guilherme-da-silva-ferreira-batista).
