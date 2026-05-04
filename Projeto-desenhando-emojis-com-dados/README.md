@@ -1,54 +1,32 @@
-# 🏠 Simulação de Microclima e Evacuação Residencial (EX6)
+# 🖼️ Gerenciamento de Playlist de Imagens e Manipulação de Pixels
 
-[![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)](https://www.python.org/)
-[![Google Colab](https://img.shields.io/badge/Acessar-Google%20Colab-orange?logo=googlecolab)](https://colab.research.google.com/drive/1tbcFBWzeAJIxXB-Qn8XYxA5B38lzFp8Y?usp=sharing)
-
-Este projeto aplica conceitos de **Pensamento Computacional** e **Estruturas de Dados** para modelar o ambiente físico de uma residência, simulando variáveis climáticas e protocolos de segurança para evacuação.
+Este módulo demonstra o uso de **métodos de listas** (`insert`, `pop`) e **iteração em coleções aninhadas** para gerenciar e editar uma galeria de imagens digitais representadas por matrizes de cores.
 
 ---
 
-## 🌡️ Parte 1: O Algoritmo do Microclima Local
+## 🛠️ Funcionalidades Técnicas
 
-Estudo da variação de temperatura e umidade em diferentes pontos da casa, tratando cada cômodo como um ambiente com variáveis únicas.
+### 1. Processamento em Lote (Batch Processing)
+O código percorre uma estrutura complexa de dicionários e listas para aplicar uma transformação em cada imagem da playlist:
+*   **Iteração Profunda:** O algoritmo utiliza quatro níveis de repetição para alcançar o nível do pixel: `Chave` -> `Imagem` -> `Linha` -> `Pixel`.
+*   **Transformação de Brilho:** Identifica a cor amarela `(255, 255, 0)` e aplica uma redução de luminosidade em 50% através da divisão inteira (`// 2`).
 
-*   **Objetivo:** Pesquisar e codificar a influência do microclima em ambientes fechados.
-*   **Acesso ao código:** [Google Colab - Notebook](https://colab.research.google.com/drive/1tbcFBWzeAJIxXB-Qn8XYxA5B38lzFp8Y?usp=sharing)
-
----
-
-## 🚶 Parte 2: Navegação e Evacuação Espacial
-
-Modelagem lógica da planta residencial para tomada de decisão em situações de emergência. A casa foi decomposta em 4 cômodos principais com regras de acessibilidade específicas:
-
-### Mapeamento dos Cômodos
-1.  **Quarto 1:** Porta acessível (chave sempre disponível); sem saída de emergência.
-2.  **Quarto 2:** Acesso à **Varanda**. A varanda não é uma saída oficial, mas serve como última opção de socorro (envolvendo risco de acidente/queda).
-3.  **Sala/Cozinha:** Ambiente amplo integrado com a **única porta de entrada/saída principal**.
-4.  **Banheiro:** Porta acessível; sem saídas alternativas.
+### 2. Gestão de Fluxo de Lista
+Foram aplicados métodos fundamentais para manipulação dinâmica da playlist:
+*   **`insert(0, ...)`**: Adiciona um novo elemento na primeira posição da lista (Index 0), deslocando os demais.
+*   **`pop()`**: Remove o último elemento da lista, útil para manter o tamanho da coleção controlado ou remover itens descartados.
 
 ---
 
-## 🧠 Parte 3: Reflexão Crítica
-
-### A Casa como um Grafo de Decisão
-Durante o mapeamento físico, percebi que um trajeto de evacuação é muito mais que um caminho; é um sistema dependente de variáveis ambientais e recursos. Obstáculos reais como portas trancadas ou zonas de risco exigem que cada ponto da casa seja tratado como um **nó de decisão**.
-
-### Da Complexidade Física à Lógica Binária
-O maior desafio foi sintetizar a complexidade física em regras de código. Enquanto uma porta no mundo real tem estados variados, no código precisei usar **dicionários** para checar simultaneamente:
-*   Existência da porta;
-*   Estado (trancada/aberta);
-*   Inventário (posse da chave).
-A lógica da varanda no Quarto 2 foi o ponto mais crítico, exigindo uma condição que avalia o risco baseado na "energia" do agente.
-
-### Programação na Vida Real
-Esta experiência mostrou que o raciocínio computacional vai além das telas. Planejar tarefas ou resolver imprevistos funciona como um algoritmo: decompor desafios, avaliar recursos (tempo/esforço) e decidir o caminho mais seguro. A programação treina a mente para ser analítica e prever falhas antes que elas ocorram na rotina.
-
----
-
-## 🛠️ Tecnologias e Conceitos
-*   **Linguagem:** Python
-*   **Estruturas:** Dicionários, Condicionais Aninhadas, Operadores Lógicos.
-*   **Conceitos:** Abstração, Decomposição de Problemas e Algoritmos de Busca.
-
----
-*Projeto desenvolvido como parte dos estudos de Lógica de Programação.*
+## 📂 Estrutura de Dados Utilizada
+```python
+playlist = {
+    "nome": "Mix Emoji",
+    "imagens": [
+        {
+            "titulo": "Sol",
+            "pixels": [[(R, G, B), ...], [...]]
+        },
+        # ... mais imagens
+    ]
+}
