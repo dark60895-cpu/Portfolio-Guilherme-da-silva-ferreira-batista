@@ -35,4 +35,4 @@ O projeto alcançou resultados sólidos em ambiente de teste, demonstrando a efi
 ## 🔧 Como Executar
 1. Clone o repositório:
    ```bash
-   git clone [https://github.com/seu-usuario/seu-repositorio.git](https://github.com/seu-usuario/seu-repositorio.git)
+git clone (https://github.com/seu-usuario/seu-repositorio.git](https://github.com/dark60895-cpu/Portifolio-Guilherme-da-silva-ferreira-batista)
