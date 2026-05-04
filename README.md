@@ -54,7 +54,7 @@ root/: Arquivo de apresentação principal.
 
 - `/projeto-traduzindo-logica-para-python/`: Quatro programas completos em Python.
 
--`/projeto-engenharia-de-contexto-e-logica-fisica/`: Análise de microclima e simulador de evacuação.
+- `/projeto-engenharia-de-contexto-e-logica-fisica/`: Análise de microclima e simulador de evacuação.
 
 - `/projeto-desenhando-emojis-com-dados/:`: Arte visual com matrizes e matplotlib.
 
