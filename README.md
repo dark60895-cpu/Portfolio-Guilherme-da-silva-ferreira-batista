@@ -1,4 +1,4 @@
-# Guilherme Da Silva Ferreira Batista
+# Guilherme da silva ferreira batista
 > Estudante de Análise e Desenvolvimento de Sistemas | Auxiliar Administrativo & Logística
 
 ---
