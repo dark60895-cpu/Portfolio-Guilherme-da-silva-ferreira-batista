@@ -29,7 +29,7 @@ Com quatro anos de experiência consolidada no setor logístico do Atacadão (Gr
 #### 🧠 Lógica e Desenvolvimento
 | Projeto | Descrição | Repositório |
 | :--- | :--- | :--- |
-| **Engenharia de Soluções Lógicas**  | Modelagem de problemas complexos através de algoritmos estruturados.          | [Ver Projeto](https://github.com/dark60895-cpu/Portifolio-Guilherme-da-silva-ferreira-batista/tree/main/Projeto-engenharia-de-so0luções-logicas) |
+| **Engenharia de Soluções Lógicas**  | Modelagem de problemas complexos através de algoritmos estruturados.          | [Ver Projeto](https://github.com/dark60895-cpu/portfolio-guilherme-da-silva-ferreira-batista/tree/main/Projeto-engenharia-de-solu%C3%A7%C3%B5es-logicas) |
 | **Traduzindo Lógica para Python**    | Implementação técnica de fluxogramas e pseudocódigos na linguagem Python.    | [Ver Projeto](https://github.com/dark60895-cpu/Portifolio-Guilherme-da-silva-ferreira-batista/tree/main/Projeto-traduzindo-logica-para-python) |
 | **Modularização**  | Organização de sistemas em módulos independentes para facilitar a manutenção e escalabilidade. | [Ver Projeto](https://github.com/dark60895-cpu/Portifolio-Guilherme-da-silva-ferreira-batista/tree/main/Projeto-Modularização) |
 
