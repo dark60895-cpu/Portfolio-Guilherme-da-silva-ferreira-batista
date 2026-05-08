@@ -181,7 +181,7 @@ if __name__ == "__main__":
     )
     print(f"\nRESULTADO: $ {total_3:,.2f}\n")
 
-
+## 🧠 Lógica e Estrutura do Código
 O código foi organizado separando claramente as responsabilidades. A lógica principal de cálculo foi construída com uma função recursiva interna (_somar_recursivo), responsável por percorrer toda a estrutura hierárquica da empresa (dicionário aninhado). A cada nível, ela verifica se o valor é numérico (caso base) ou outro dicionário (caso recursivo), somando os valores enquanto respeita os departamentos que devem ser ignorados. Essa separação permite que a recursão fique isolada, simples e focada apenas no processamento dos dados.
-
+## 👤 Autor [Guilherme da silva ferreira batista]** * LinkedIn: [https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white]*[ E-mail: dark60895@gmail.com]
 Já o decorator @auditor foi acoplado de forma externa à função principal (calcular_orcamento), sem interferir na lógica da recursão. Ele atua como uma camada adicional responsável por auditoria: exibindo informações de entrada (*args e *kwargs), controlando o tempo de execução e padronizando a saída. Dessa forma, o código fica modular, reutilizável e mais organizado, seguindo o princípio de separação de responsabilidades.
