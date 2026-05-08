@@ -11,21 +11,19 @@ Sistema robusto para cálculo de orçamento em estruturas hierárquicas de empre
 
 ## 🏗️ Estrutura da Empresa
 
-## A empresa é representada como um dicionário aninhado contendo:
-##Empresa
-├── Matriz
-│ ├── TI (Infraestrutura + Desenvolvimento)
-│ ├── RH (Recrutamento + Treinamento + Benefícios)
-│ ├── Financeiro (Contabilidade + Auditoria + Tesouraria)
-│ └── Marketing (Mídias Pagas + Conteúdo + Branding)
-├── Filial_SP
-│ ├── Operações (Logística + Estoque)
-│ ├── Vendas (Varejo + Atacado + E-commerce)
-│ └── Suporte
-└── Filial_RJ
-├── Operações (Logística + Estoque)
-├── Vendas (Varejo + Atacado)
-└── Jurídico (Contratos + Compliance)
+| Departamento | Subdepartamentos | Orçamento (R$) |
+|-------------|------------------|----------------|
+| **Matriz - TI** | Infraestrutura, Desenvolvimento | 760.000 |
+| **Matriz - RH** | Recrutamento, Treinamento, Benefícios | 185.000 |
+| **Matriz - Financeiro** | Contabilidade, Auditoria, Tesouraria | 335.000 |
+| **Matriz - Marketing** | Mídias Pagas, Conteúdo, Branding | 390.000 |
+| **Filial_SP - Operações** | Logística, Estoque | 265.000 |
+| **Filial_SP - Vendas** | Varejo, Atacado, E-commerce | 930.000 |
+| **Filial_SP - Suporte** | - | 55.000 |
+| **Filial_RJ - Operações** | Logística, Estoque | 210.000 |
+| **Filial_RJ - Vendas** | Varejo, Atacado | 350.000 |
+| **Filial_RJ - Jurídico** | Contratos, Compliance | 160.000 |
+| **TOTAL** | | **R$ 3.640.000,00** |
 
 text
 
