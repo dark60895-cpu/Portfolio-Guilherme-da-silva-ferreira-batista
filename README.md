@@ -57,7 +57,9 @@ root/: Arquivo de apresentação principal.
 
 - `/Projeto-engenharia-de-contexto-e-logica-fisica/`: Análise de microclima e simulador de evacuação.
 
-- `/Projeto-desenhando-emojis-com-dados/:`: Arte visual com matrizes e matplotlib.
+- `/Sistema_de_Auditoria/` : Script de automação financeira que utiliza recursividade para consolidar orçamentos em dicionários aninhados e decorators para auditoria de performance e logs. 
+
+- `/Projeto-desenhando-emojis-com-dados/ `: Arte visual com matrizes e matplotlib.
 
 ---
 *Este portfólio demonstra o compromisso com a agilidade, precisão e busca por soluções lógicas para os desafios operacionais e tecnológicos.*
