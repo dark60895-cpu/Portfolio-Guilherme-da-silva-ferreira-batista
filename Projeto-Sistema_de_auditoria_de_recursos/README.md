@@ -11,8 +11,8 @@ Sistema robusto para cálculo de orçamento em estruturas hierárquicas de empre
 
 ## 🏗️ Estrutura da Empresa
 
-A empresa é representada como um dicionário aninhado contendo:
-Empresa
+## A empresa é representada como um dicionário aninhado contendo:
+##Empresa
 ├── Matriz
 │ ├── TI (Infraestrutura + Desenvolvimento)
 │ ├── RH (Recrutamento + Treinamento + Benefícios)
