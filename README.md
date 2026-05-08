@@ -37,9 +37,9 @@ Com quatro anos de experiência consolidada no setor logístico do Atacadão (Gr
 | Projeto | Descrição | Repositório |
 | :--- | :--- | :--- |
 | **Engenharia de Contexto e Lógica Física** | Algoritmo de navegação espacial que mapeia ambientes reais em nós de decisão. | [Ver Projeto](https://github.com/dark60895-cpu/Portifolio-Guilherme-da-silva-ferreira-batista/tree/main/Projeto-engenharia-de-contexto-e-logica-fisica) |
-| **Auditoria de Dados**                     | Sistema focado na verificação de integridade e processamento de grandes volumes de dados. | [Ver Projeto](https://github.com/dark60895-cpu/Portifolio-Guilherme-da-silva-ferreira-batista/tree/main/Projeto-algoritmo-de-auditoria-de-dados) |
-| **Desenhando Emojis com Dados**            | Exploração de lógica de matrizes para representação visual e manipulação de dados. | [Ver Projeto](https://github.com/dark60895-cpu/Portifolio-Guilherme-da-silva-ferreira-batista/tree/main/Projeto-algoritmo-de-auditoria-de-dados) |
-| **Sistema de Auditoria**                   | Script de automação financeira que utiliza recursividade para consolidar orçamentos em dicionários aninhados e decorators para auditoria de performance e logs. | [Ver Projeto](https://github.com/dark60895-cpu/portfolio-guilherme-da-silva-ferreira-batista/tree/main/Sistema_de_Auditoria)
+| **Auditoria de Dados**  | Sistema focado na verificação de integridade e processamento de grandes volumes de dados. | [Ver Projeto](https://github.com/dark60895-cpu/Portifolio-Guilherme-da-silva-ferreira-batista/tree/main/Projeto-algoritmo-de-auditoria-de-dados) |
+| **Desenhando Emojis com Dados**  | Exploração de lógica de matrizes para representação visual e manipulação de dados. | [Ver Projeto](https://github.com/dark60895-cpu/Portifolio-Guilherme-da-silva-ferreira-batista/tree/main/Projeto-algoritmo-de-auditoria-de-dados) |
+| **Sistema de Auditoria**  | Script de automação financeira que utiliza recursividade para consolidar orçamentos em dicionários aninhados e decorators para auditoria de performance e logs. | [Ver Projeto](https://github.com/dark60895-cpu/portfolio-guilherme-da-silva-ferreira-batista/tree/main/Sistema_de_Auditoria)
 
 ### 🏗 Estrutura do Repositório
 - `root/`: Perfil principal, currículo e documentação de portfólio.
