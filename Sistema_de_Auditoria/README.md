@@ -47,9 +47,9 @@ def auditor(funcao):
     return wrapper
 
 
-# ===============================
+# ========================
 # 2. ESTRUTURA DE DADOS
-# ===============================
+# ========================
 
 empresa = {
     "Matriz": {
@@ -94,9 +94,10 @@ empresa = {
 }
 
 
-# ===========================
+
+# ========================
 # 3. FUNÇÃO RECURSIVA
-# ===========================
+# ========================
 
 @auditor
 def calcular_orcamento(estrutura, *args, **kwargs):
