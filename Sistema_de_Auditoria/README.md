@@ -1,24 +1,3 @@
-Auditoria de Orçamentos Corporativos
-Disciplina: Python Avançado  
-
-Conceitos Aplicados: Recursão, Decorators, *args, kwargs
-
-  
-
-1. Visão Geral do Projeto
-Este sistema simula uma auditoria financeira automatizada para uma estrutura organizacional complexa. O script é capaz de processar dicionários aninhados que representam departamentos e sub-departamentos, permitindo:  
-
-Cálculo Recursivo: Soma de valores em qualquer nível de profundidade da estrutura.  
-
-Filtragem Dinâmica: Exclusão de setores específicos via argumentos variáveis (*args).  
-
-Conversão de Moedas: Aplicação de taxas de câmbio flexíveis via parâmetros nomeados (kwargs).  
-
-Monitoramento: Auditoria de tempo de execução e inspeção de dados através de decoradores.  
-
-2. Código-Fonte Completo
-Python
-
 import time
 
 # =============================================================================
@@ -27,7 +6,10 @@ import time
 
 def auditor(funcao):
     """
-    Decorator responsável por monitorar a execução da função de cálculo.
+    Decorator responsável por:
+    - Exibir cabeçalho de auditoria antes da execução
+    - Registrar os argumentos recebidos
+    - Medir e exibir o tempo total de execução
     """
     def wrapper(*args, **kwargs):
         print("=" * 60)
@@ -66,7 +48,7 @@ def auditor(funcao):
 
 
 # =============================================================================
-# 2. ESTRUTURA DE DADOS (Dicionários Aninhados)
+# 2. ESTRUTURA DE DADOS
 # =============================================================================
 
 empresa = {
@@ -113,32 +95,41 @@ empresa = {
 
 
 # =============================================================================
-# 3. LÓGICA DE PROCESSAMENTO (Recursão e Args/Kwargs)
+# 3. FUNÇÃO RECURSIVA
 # =============================================================================
 
 @auditor
 def calcular_orcamento(estrutura, *args, **kwargs):
-
+    """
+    Função principal que utiliza uma função auxiliar interna recursiva
+    para navegar pelos níveis do dicionário da empresa.
+    """
     def _somar_recursivo(no, ignorados):
         total = 0
 
-        # Caso base: valor numérico
+        # Caso base: se o valor for numérico, retorna o valor
         if isinstance(no, (int, float)):
             return no
 
-        # Caso recursivo: dicionário
+        # Caso recursivo: se for um dicionário, itera sobre as chaves
         if isinstance(no, dict):
             for chave, valor in no.items():
+                # Verifica se o departamento deve ser ignorado
                 if chave in ignorados:
                     print(f"  [IGNORADO] Departamento '{chave}' foi excluído.")
                     continue
+
                 total += _somar_recursivo(valor, ignorados)
 
         return total
 
+    # Converte args (departamentos a ignorar) em set para busca rápida
     departamentos_ignorados = set(args)
+
+    # Inicia a recursão
     total_base = _somar_recursivo(estrutura, departamentos_ignorados)
 
+    # Processamento de kwargs para conversão
     taxa = kwargs.get("taxa_cambio", 1.0)
     moeda = kwargs.get("moeda_destino", "USD")
 
@@ -152,19 +143,21 @@ def calcular_orcamento(estrutura, *args, **kwargs):
 
 
 # =============================================================================
-# 4. EXEMPLOS DE EXECUÇÃO
+# 4. EXECUÇÃO
 # =============================================================================
 
 if __name__ == "__main__":
 
-    # Cálculo 1: Empresa inteira com conversão
+    print("\n>>> CÁLCULO 1: Completo em BRL\n")
     total_1 = calcular_orcamento(
         empresa,
         moeda_destino="BRL",
         taxa_cambio=5.20
     )
+    print(f"\nRESULTADO FINAL: R$ {total_1:,.2f}\n")
 
-    # Cálculo 2: Filtrando departamentos específicos
+
+    print("\n>>> CÁLCULO 2: Ignorando Vendas e RH\n")
     total_2 = calcular_orcamento(
         empresa,
         "Vendas",
@@ -172,9 +165,26 @@ if __name__ == "__main__":
         moeda_destino="BRL",
         taxa_cambio=5.20
     )
-3. Explicação Técnica
-*args: Captura todos os nomes de departamentos que devem ser ignorados durante a soma, transformando-os em um conjunto (set) para otimizar a busca.  
+    print(f"\nRESULTADO FINAL: R$ {total_2:,.2f}\n")
 
-kwargs: Permite definir parâmetros de conversão de moeda de forma opcional, garantindo que o código funcione tanto para orçamentos locais quanto globais.  
 
-Recursão: A função _somar_recursivo mergulha nos dicionários aninhados, tratando cada nível como uma nova estrutura até alcançar os valores numéricos finais.
+    print("\n>>> CÁLCULO 3: Apenas TI e Financeiro (Filtro por exclusão)\n")
+    total_3 = calcular_orcamento(
+        empresa,
+        "Vendas",
+        "RH",
+        "Operações",
+        "Suporte",
+        "Filial_RJ"
+    )
+    print(f"\nRESULTADO FINAL: $ {total_3:,.2f}\n")
+
+
+    ## 🧠 Lógica e Estrutura do Código
+O código foi organizado separando claramente as responsabilidades. A lógica principal de cálculo foi construída com uma função recursiva interna (_somar_recursivo), responsável por percorrer toda a estrutura hierárquica da empresa (dicionário aninhado). A cada nível, ela verifica se o valor é numérico (caso base) ou outro dicionário (caso recursivo), somando os valores enquanto respeita os departamentos que devem ser ignorados. Essa separação permite que a recursão fique isolada, simples e focada apenas no processamento dos dados.
+ 
+## 👤 Autor [Guilherme da silva ferreira batista]
+  ** * LinkedIn: [https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white]*      ﻿[ E-mail: dark60895@gmail.com]
+ 
+  Já o decorator @auditor foi acoplado de forma externa à função principal (calcular_orcamento), sem interferir na lógica da recursão. Ele atua como uma camada adicional responsável por auditoria: exibindo informações de entrada (*args e *kwargs), controlando o tempo de execução e padronizando a saída. Dessa forma, o código fica modular, reutilizável e mais organizado, seguindo o princípio de separação de responsabilidades.
+ 
