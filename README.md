@@ -1,6 +1,5 @@
 # Guilherme da Silva Ferreira Batista
 > **Estudante de Análise e Desenvolvimento de Sistemas | Especialista em Operações Logísticas & Administrativas**
-
 ---
 
 ## 📫 Contato & Redes Sociais
