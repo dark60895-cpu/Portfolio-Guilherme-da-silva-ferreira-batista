@@ -41,9 +41,9 @@ Com quatro anos de experiência consolidada no setor logístico do Atacadão (Gr
 
 | Projeto | Descrição | Link |
 | :--- | :--- | :--- |
-| **Engenharia de Soluções Lógicas** | Modelagem de problemas complexos através de algoritmos estruturados para otimização de tomada de decisão. | [Repositório](https://github.com/dark60895-cpu/portfolio-guilherme-da-silva-ferreira-batista/tree/main/Projeto-engenharia-de-solu%C3%A7%C3%B5es-logicas) |
-| **Traduzindo Lógica para Python** | Implementação técnica de fluxogramas e pseudocódigos aplicados diretamente em ambiente Python. | [Repositório](https://github.com/dark60895-cpu/Portifolio-Guilherme-da-silva-ferreira-batista/tree/main/Projeto-traduzindo-logica-para-python) |
-| **Modularização** | Desenvolvimento de sistemas utilizando componentes independentes para garantir manutenibilidade e escalabilidade técnica. | [Repositório](https://github.com/dark60895-cpu/Portifolio-Guilherme-da-silva-ferreira-batista/tree/main/Projeto-Modularização) |
+| **Engenharia de Soluções Lógicas** | Modelagem de problemas complexos através de algoritmos estruturados para otimização de tomada de decisão. | [Ver Projeto](https://github.com/dark60895-cpu/portfolio-guilherme-da-silva-ferreira-batista/tree/main/Projeto-engenharia-de-solu%C3%A7%C3%B5es-logicas) |
+| **Traduzindo Lógica para Python** | Implementação técnica de fluxogramas e pseudocódigos aplicados diretamente em ambiente Python. | [Ver Projeto](https://github.com/dark60895-cpu/Portifolio-Guilherme-da-silva-ferreira-batista/tree/main/Projeto-traduzindo-logica-para-python) |
+| **Modularização** | Desenvolvimento de sistemas utilizando componentes independentes para garantir manutenibilidade e escalabilidade técnica. | [Ver Projeto](https://github.com/dark60895-cpu/Portifolio-Guilherme-da-silva-ferreira-batista/tree/main/Projeto-Modularização) |
 
 ---
 
@@ -52,10 +52,10 @@ Com quatro anos de experiência consolidada no setor logístico do Atacadão (Gr
 
 | Projeto | Descrição | Link |
 | :--- | :--- | :--- |
-| **Sistema de Auditoria de Recursos** | Automação financeira complexa que utiliza recursividade para consolidação de orçamentos e decorators para logs de performance. | [Repositório](https://github.com/dark60895-cpu/portfolio-guilherme-da-silva-ferreira-batista/tree/main/Projeto-Sistema_de_auditoria_de_recursos) |
-| **Auditoria de Dados** | Engine de processamento desenhada para verificação de integridade e tratamento de grandes datasets. | [Repositório](https://github.com/dark60895-cpu/Portifolio-Guilherme-da-silva-ferreira-batista/tree/main/Projeto-algoritmo-de-auditoria-de-dados) |
-| **Engenharia de Contexto Física** | Algoritmo de navegação espacial que converte mapeamentos de ambientes reais em nós de decisão lógica. | [Repositório](https://github.com/dark60895-cpu/Portifolio-Guilherme-da-silva-ferreira-batista/tree/main/Projeto-engenharia-de-contexto-e-logica-fisica) |
-| **Visualização de Matrizes** | Exploração de lógica de matrizes e manipulação de dados para representação visual (Desenho de Emojis). | [Repositório](https://github.com/dark60895-cpu/Portifolio-Guilherme-da-silva-ferreira-batista/tree/main/Projeto-algoritmo-de-auditoria-de-dados) |
+| **Sistema de Auditoria de Recursos** | Automação financeira complexa que utiliza recursividade para consolidação de orçamentos e decorators para logs de performance. | [Ver Projeto](https://github.com/dark60895-cpu/portfolio-guilherme-da-silva-ferreira-batista/tree/main/Projeto-Sistema_de_auditoria_de_recursos) |
+| **Auditoria de Dados** | Engine de processamento desenhada para verificação de integridade e tratamento de grandes datasets. | [Ver Projeto](https://github.com/dark60895-cpu/Portifolio-Guilherme-da-silva-ferreira-batista/tree/main/Projeto-algoritmo-de-auditoria-de-dados) |
+| **Engenharia de Contexto Física** | Algoritmo de navegação espacial que converte mapeamentos de ambientes reais em nós de decisão lógica. | [Ver Projeto](https://github.com/dark60895-cpu/Portifolio-Guilherme-da-silva-ferreira-batista/tree/main/Projeto-engenharia-de-contexto-e-logica-fisica) |
+| **Visualização de Matrizes** | Exploração de lógica de matrizes e manipulação de dados para representação visual (Desenho de Emojis). | [Ver Projeto](https://github.com/dark60895-cpu/Portifolio-Guilherme-da-silva-ferreira-batista/tree/main/Projeto-algoritmo-de-auditoria-de-dados) |
 
 
 ### 🏗 Estrutura do Repositório
