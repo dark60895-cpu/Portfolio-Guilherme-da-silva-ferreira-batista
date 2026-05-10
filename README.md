@@ -47,7 +47,7 @@ Com quatro anos de experiência consolidada no setor logístico do **Atacadão (
 
 <br>
 
-###  📊 Inteligência de Dados, Auditoria e Simulação
+### 📊 Inteligência de Dados, Auditoria e Simulação
 *Sistemas projetados para garantir a integridade de dados críticos, automação de processos financeiros e análise de variáveis físicas.*
 
 | Projeto | Descrição Técnica Detalhada | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Acesso&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |
@@ -58,7 +58,7 @@ Com quatro anos de experiência consolidada no setor logístico do **Atacadão (
 
 ---
 
-### 🏗 Estrutura do Repositório
+# 🏗 Estrutura do Repositório
 
 Organização sistemática para facilitar a navegação e o entendimento técnico dos módulos:
 
