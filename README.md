@@ -64,19 +64,6 @@ Com quatro anos de experiência consolidada no setor logístico do **Atacadão (
 | **Engenharia de Contexto Física** | Simulador de navegação e análise microclimática que converte variáveis físicas do mundo real em modelos digitais para processamento de telemetria e lógica espacial.[cite: 4] | [Ver Repositório](https://github.com/dark60895-cpu/Portifolio-Guilherme-da-silva-ferreira-batista/tree/main/Projeto-engenharia-de-contexto-e-logica-fisica) |
 
 ---
-
-### 🏗 Estrutura do Repositório
-
-*   `root/`: Arquivo de apresentação principal e currículo profissional.[cite: 4]
-*   `📂 /Projeto-algoritmo-de-auditoria-de-dados/`: Detecção de anomalias e integridade de dados.[cite: 4]
-*   `📂 /Projeto-Sistema_de_auditoria_de_recursos/`: Automação financeira e monitoramento de performance.[cite: 4]
-*   `📂 /Projeto-engenharia-de-solucoes-logicas/`: Modelagem de algoritmos para decisões complexas.[cite: 4]
-*   `📂 /Projeto-modularizacao/`: Aplicação de padrões de código limpo e sistemas modulares.[cite: 4]
-*   `📂 /Projeto-traduzindo-logica-para-python/`: Implementação de fluxogramas em ambiente Python.[cite: 4]
-*   `📂 /Projeto-engenharia-de-contexto-e-logica-fisica/`: Simuladores espaciais e processamento de telemetria.[cite: 4]
-*   `📂 /Projeto-desenhando-emojis-com-dados/`: Manipulação de matrizes de dados para fins visuais.[cite: 4]
-
----
 *Este repositório reflete a aplicação de rigor técnico e pensamento analítico na resolução de desafios operacionais e de software.*[cite: 4]
 ---
 
