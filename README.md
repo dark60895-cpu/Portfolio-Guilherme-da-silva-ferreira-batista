@@ -36,11 +36,6 @@ Com quatro anos de experiência consolidada no setor logístico do **Atacadão (
 
 ---
 
-# Guilherme da Silva Ferreira Batista
-> **Estudante de Análise e Desenvolvimento de Sistemas | Auxiliar Administrativo & Logística**
-
----
-
 ## 📂 Portfólio de Projetos Acadêmicos e Técnicos
 
 #### 🧠 Arquitetura de Software e Implementação Estruturada
