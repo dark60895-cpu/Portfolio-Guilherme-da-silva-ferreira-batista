@@ -39,7 +39,7 @@ Com quatro anos de experiência consolidada no setor logístico do **Atacadão (
 ## 📂 Portfólio de Projetos Acadêmicos e Técnicos
 
 #### 🧠 Arquitetura de Software e Implementação Estruturada
-*Desenvolvimento focado em escalabilidade, aplicação de padrões de projeto e conversão eficiente de lógica teórica em sistemas funcionais.*[cite: 4]
+*Desenvolvimento focado em escalabilidade, aplicação de padrões de projeto e conversão eficiente de lógica teórica em sistemas funcionais.*
 
 | Projeto | Descrição Técnica Detalhada | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Acesso&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |
 | :--- | :--- | :---: |
@@ -50,7 +50,7 @@ Com quatro anos de experiência consolidada no setor logístico do **Atacadão (
 <br>
 
 #### 📊 Inteligência de Dados, Auditoria e Simulação
-*Sistemas projetados para garantir a integridade de grandes volumes de dados, automação de processos financeiros e análise de variáveis físicas.*[cite: 4]
+*Sistemas projetados para garantir a integridade de grandes volumes de dados, automação de processos financeiros e análise de variáveis físicas.*
 
 | Projeto | Descrição Técnica Detalhada | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Acesso&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |
 | :--- | :--- | :---: |
