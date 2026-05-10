@@ -8,8 +8,6 @@
 [![E-mail](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:dark60895@gmail.com)
 [![Currículo](https://img.shields.io/badge/Currículo-000000?style=for-the-badge&logo=read-the-docs&logoColor=white)](https://github.com/dark60895-cpu/Portifolio-Guilherme-da-silva-ferreira-batista/blob/main/guilherme_silva(curriculo)....pdf%20(1).pdf)
 
----
-
 # 👨‍💻 Sobre
 
 ### Atualmente cursando **Análise e Desenvolvimento de Sistemas**, busco aplicar o raciocínio lógico e a automação de processos em soluções de tecnologia de alto impacto.
