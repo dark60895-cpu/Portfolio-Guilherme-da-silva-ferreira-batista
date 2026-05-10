@@ -59,8 +59,6 @@ Com quatro anos de experiência consolidada no setor logístico do **Atacadão (
 | **Engenharia de Contexto Física** | Simulador de navegação e análise microclimática que converte variáveis físicas do mundo real em modelos digitais para processamento de telemetria e lógica espacial. | [Ver Repositório](https://github.com/dark60895-cpu/Portifolio-Guilherme-da-silva-ferreira-batista/tree/main/Projeto-engenharia-de-contexto-e-logica-fisica) |
 
 ---
-*Este repositório reflete a aplicação de rigor técnico e pensamento analítico na resolução de desafios operacionais e de software.*[cite: 4]
----
 
 ### 🏗 Estrutura do Repositório
 
