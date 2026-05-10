@@ -39,20 +39,23 @@ Com quatro anos de experiência consolidada no setor logístico do **Atacadão (
 ### 📂 Portfólio de Projetos
 
 #### 🧠 Arquitetura de Software e Implementação
-| Projeto | Descrição | Link |
+*Projetos focados em estruturação lógica, escalabilidade e transformação de conceitos teóricos em código funcional.*
+
+| Projeto | Descrição Técnica Detalhada | Link |
 | :--- | :--- | :--- |
-| **Engenharia de Soluções Lógicas** | Modelagem de problemas complexos através de algoritmos estruturados. | [Ver Projeto](https://github.com/dark60895-cpu/portfolio-guilherme-da-silva-ferreira-batista/tree/main/Projeto-engenharia-de-solu%C3%A7%C3%B5es-logicas) |
-| **Traduzindo Lógica para Python** | Implementação técnica de fluxogramas e pseudocódigos em Python. | [Ver Projeto](https://github.com/dark60895-cpu/Portifolio-Guilherme-da-silva-ferreira-batista/tree/main/Projeto-traduzindo-logica-para-python) |
-| **Modularização** | Organização de sistemas em módulos independentes para escalabilidade. | [Ver Projeto](https://github.com/dark60895-cpu/Portifolio-Guilherme-da-silva-ferreira-batista/tree/main/Projeto-Modularização) |
+| **Engenharia de Soluções Lógicas** | Decomposição de problemas complexos em algoritmos estruturados, utilizando técnicas de modelagem lógica para otimizar a tomada de decisão. | [Ver Projeto](https://github.com/dark60895-cpu/portfolio-guilherme-da-silva-ferreira-batista/tree/main/Projeto-engenharia-de-solu%C3%A7%C3%B5es-logicas) |
+| **Traduzindo Lógica para Python** | Desenvolvimento de programas funcionais através da tradução rigorosa de fluxogramas e pseudocódigos para sintaxe Python de alta legibilidade. | [Ver Projeto](https://github.com/dark60895-cpu/Portifolio-Guilherme-da-silva-ferreira-batista/tree/main/Projeto-traduzindo-logica-para-python) |
+| **Modularização de Sistemas** | Aplicação de conceitos de *Clean Code* para organizar sistemas em módulos independentes, facilitando a manutenção e a escalabilidade técnica. | [Ver Projeto](https://github.com/dark60895-cpu/Portifolio-Guilherme-da-silva-ferreira-batista/tree/main/Projeto-Modularização) |
 
 #### 📊 Inteligência de Dados e Auditoria
-| Projeto | Descrição | Link |
-| :--- | :--- | :--- |
-| **Auditoria de Recursos** | Automação financeira com recursividade e decorators de performance. | [Ver Projeto](https://github.com/dark60895-cpu/portfolio-guilherme-da-silva-ferreira-batista/tree/main/Projeto-Sistema_de_auditoria_de_recursos) |
-| **Auditoria de Dados** | Engine para verificação de integridade e tratamento de grandes volumes. | [Ver Projeto](https://github.com/dark60895-cpu/Portifolio-Guilherme-da-silva-ferreira-batista/tree/main/Projeto-algoritmo-de-auditoria-de-dados) |
-| **Contexto Física** | Algoritmo de navegação espacial e análise de microclima. | [Ver Projeto](https://github.com/dark60895-cpu/Portifolio-Guilherme-da-silva-ferreira-batista/tree/main/Projeto-engenharia-de-contexto-e-logica-fisica) |
+*Soluções voltadas para a integridade da informação, automação financeira e análise de contextos físicos.*
 
----
+| Projeto | Descrição Técnica Detalhada | Link |
+| :--- | :--- | :--- |
+| **Auditoria de Recursos** | Script de automação financeira que utiliza recursividade para consolidação de orçamentos em dicionários aninhados e *decorators* para monitoramento de performance. | [Ver Projeto](https://github.com/dark60895-cpu/portfolio-guilherme-da-silva-ferreira-batista/tree/main/Projeto-Sistema_de_auditoria_de_recursos) |
+| **Auditoria de Dados** | Engine de processamento projetada para verificação de integridade, detecção de anomalias e tratamento de grandes volumes de dados brutos. | [Ver Projeto](https://github.com/dark60895-cpu/Portifolio-Guilherme-da-silva-ferreira-batista/tree/main/Projeto-algoritmo-de-auditoria-de-dados) |
+| **Engenharia de Contexto Física** | Algoritmo avançado de navegação espacial e análise de microclima, mapeando variáveis de ambientes reais em nós de decisão lógica. | [Ver Projeto](https://github.com/dark60895-cpu/Portifolio-Guilherme-da-silva-ferreira-batista/tree/main/Projeto-engenharia-de-contexto-e-logica-fisica) |
+
 ### 🏗 Estrutura do Repositório
 
 Para facilitar a navegação, os projetos estão organizados conforme a estrutura abaixo:
