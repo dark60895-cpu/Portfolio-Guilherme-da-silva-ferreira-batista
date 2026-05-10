@@ -10,7 +10,7 @@
 
 ---
 
-### 👨‍💻 Sobre
+# 👨‍💻 Sobre
 Atualmente cursando **Análise e Desenvolvimento de Sistemas**, busco aplicar o raciocínio lógico e a automação de processos em soluções de tecnologia de alto impacto.
 
 Com quatro anos de experiência consolidada no setor logístico do **Atacadão (Grupo Carrefour)**, possuo expertise na gestão de fluxos complexos de entrada e saída, conferência técnica de estoque e suporte administrativo estratégico a canais de vendas digitais. Minha trajetória profissional me permitiu desenvolver uma forte capacidade analítica e rigor organizacional, competências que agora direciono para a arquitetura de software e engenharia de dados.
@@ -21,7 +21,7 @@ Com quatro anos de experiência consolidada no setor logístico do **Atacadão (
 
 ---
 
-### 🛠️ Tecnologias e Ferramentas
+# 🛠️ Tecnologias e Ferramentas
 
 ## Programação & Lógica
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
@@ -34,7 +34,7 @@ Com quatro anos de experiência consolidada no setor logístico do **Atacadão (
 
 ---
 
-## 📂 Portfólio de Projetos Acadêmicos e Técnicos
+# 📂 Portfólio de Projetos Acadêmicos e Técnicos
 
 ### 🧠 Arquitetura de Software e Implementação Estruturada
 *Foco em escalabilidade, aplicação de padrões de projeto (Design Patterns) e conversão de lógica teórica em código funcional de alta performance.*
