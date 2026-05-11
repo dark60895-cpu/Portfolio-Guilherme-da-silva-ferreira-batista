@@ -71,4 +71,4 @@
 *   `📂 /Projeto-desenhando-emojis-com-dados/`: Algoritmos de manipulação matricial para representação de dados visuais.
 
 ---
-**Este portfólio reflete a fusão entre a experiência operacional logística e a precisão técnica do desenvolvimento de software, buscando excelência em cada linha de código**
+Este portfólio reflete a fusão entre a experiência operacional logística e a precisão técnica do desenvolvimento de software, buscando excelência em cada linha de código
