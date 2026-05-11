@@ -8,7 +8,7 @@
 
 
 # 👨‍💻 Sobre
----
+
 ### Atualmente cursando **Análise e Desenvolvimento de Sistemas**, busco aplicar o raciocínio lógico e a automação de processos em soluções de tecnologia de alto impacto.
 
   Com quatro anos de experiência consolidada no setor logístico do **Atacadão (Grupo Carrefour)**, possuo expertise na gestão de fluxos complexos de entrada e saída, conferência técnica de estoque e suporte administrativo estratégico a canais de vendas digitais. Minha trajetória profissional me permitiu desenvolver uma forte capacidade analítica e rigor organizacional, competências que agora direciono para a arquitetura de software e engenharia de dados.
