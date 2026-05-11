@@ -59,7 +59,7 @@
 
 # 🏗 Estrutura do Repositório
 
-** Organização sistemática para facilitar a navegação e o entendimento técnico dos módulos:
+**Organização sistemática para facilitar a navegação e o entendimento técnico dos módulos:**
 
 *   `root/`: Documentação central, apresentações profissionais e currículo atualizado.
 *   `📂 /Projeto-algoritmo-de-auditoria-de-dados/`: Scripts de integridade e tratamento de anomalias em bases de dados.
