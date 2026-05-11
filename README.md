@@ -47,7 +47,7 @@
 <br>
 
 ### 📊 Inteligência de Dados, Auditoria e Simulação
-*Sistemas projetados para garantir a integridade de dados críticos, automação de processos financeiros e análise de variáveis físicas.*
+* Sistemas projetados para garantir a integridade de dados críticos, automação de processos financeiros e análise de variáveis físicas *
 
 | Projeto | Descrição Técnica Detalhada | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Acesso&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |
 | :--- | :--- | :---: |
@@ -71,4 +71,4 @@
 *   `📂 /Projeto-desenhando-emojis-com-dados/`: Algoritmos de manipulação matricial para representação de dados visuais.
 
 ---
-*Este portfólio reflete a fusão entre a experiência operacional logística e a precisão técnica do desenvolvimento de software, buscando excelência em cada linha de código.*[cite: 1]
+* Este portfólio reflete a fusão entre a experiência operacional logística e a precisão técnica do desenvolvimento de software, buscando excelência em cada linha de código. *
