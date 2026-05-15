@@ -1,4 +1,5 @@
-Markdown
+# Projeto Engenharia De Soluções Logicas
+
 # 🚀 Soluções em Lógica de Programação e Engenharia de Processos
 
 Este repositório reúne projetos focados em automação, arquitetura modular e tratamento de exceções, demonstrando a aplicação de lógica computacional em cenários reais de varejo e saúde.
