@@ -1,41 +1,59 @@
-# Projeto engenharia de soluções logicas
-# 🏥 Hospital Triage Simulation: Resilient Engine
-> **Projeto de Automação de Triagem baseada no Protocolo de Manchester**[cite: 1]
+Markdown
+# 🚀 Soluções em Lógica de Programação e Engenharia de Processos
 
-## 📝 Sobre o Projeto
-Este repositório contém a lógica de um motor de processamento para triagem hospitalar. O sistema foi projetado para converter a subjetividade clínica em regras binárias rígidas, garantindo que a priorização de pacientes seja feita de forma rápida, segura e à prova de falhas.
-
-O projeto evoluiu de um fluxograma de decisão simples para um algoritmo resiliente que considera falhas de sensores e dados implausíveis, garantindo a continuidade do cuidado médico.
-
-## 🚀 Funcionalidades Principais
-- **Classificação Automática:** Processamento de sinais vitais (Temperatura, FC, Oxigenação) para definir o nível de urgência[cite: 1, 3].
-- **Arquitetura de Resiliência (VAR):** Sistema preparado para lidar com três cenários distintos de entrada de dados.
-- **Protocolo de Fallback (Plano B):** Mecanismo de segurança que aciona a intervenção humana imediata em caso de erro técnico.
-
-## 🧠 Lógica de Processamento (Cenários VAR)
-O algoritmo `Triagem_Emergencia_Resiliente_VAR` opera sob três camadas de verificação:
-
-1. **Cenário C (Tratamento de Exceção):** 
-   - Identifica falhas no status do sensor ou dados anatomicamente impossíveis (ex: Batimentos > 250).
-   - **Ação:** Alerta de falha e encaminhamento imediato para triagem manual.
-2. **Cenário B (Limite/Borda):** 
-   - Monitora pacientes que atingem exatamente o limite crítico (ex: 90% de oxigenação ou 100 BPM).
-   - **Ação:** Classificação Amarela (Monitoramento Urgente de Risco).
-3. **Cenário A (Entrada Ideal):** 
-   - Processamento padrão para emergências claras (Oxigenação < 90% ou FC > 120).
-   - **Ação:** Classificação Vermelha (Emergência).
-
-## 🛠 Desafios de Desenvolvimento & Logística
-Durante a elaboração deste projeto, foram abordados dois desafios críticos do setor de tecnologia em saúde:
-*   **Subjetividade vs. Binário:** O obstáculo de transformar a nuance do diagnóstico clínico em regras de "Sim/Não" para o computador.
-*   **Redundância e Validação:** A implementação de validação de dados para evitar que sensores quebrados ou erros humanos comprometam a segurança do paciente.
-
-## 🔧 Estrutura do Algoritmo
-O sistema segue a seguinte ordem de execução:
-1. **Coleta:** Nome, Idade, Sintomas e Sinais Vitais[cite: 1].
-2. **Sanitização:** Verificação de plausibilidade dos valores recebidos.
-3. **Decisão:** Cascata de condicionais (Emergência -> Urgência -> Leve).
-4. **Fallback:** Verificação final de integridade do processo.
+Este repositório reúne projetos focados em automação, arquitetura modular e tratamento de exceções, demonstrando a aplicação de lógica computacional em cenários reais de varejo e saúde.
 
 ---
-[Voltar ao início](https://github.com/dark60895-cpu/Portifolio-Guilherme-da-silva-ferreira-batista)
+
+## 🏥 1. Sistema de Triagem Hospitalar Resiliente
+
+Algoritmo desenvolvido para automatizar a classificação de risco de pacientes, focado na robustez e no tratamento de falhas em sensores.
+
+### 📋 Visão Geral
+O sistema processa sinais vitais (Frequência Cardíaca, Oxigenação, Temperatura) e sintomas para categorizar o atendimento em três níveis principais, seguindo diretrizes de protocolos de emergência.
+
+### ⚙️ Diferenciais Técnicos
+* **Engenharia de Contexto:** Diferenciação entre caminhos comuns (Entrada Ideal) e cenários de limite/borda (Bordo crítico).
+* **Resiliência e Fallback:** Sistema de detecção de falha em sensores. Caso um sensor retorne `Falso` ou dados implausíveis, o algoritmo aciona automaticamente um alerta para intervenção humana.
+* **Lógica Binária vs. Subjetividade:** Tratamento do desafio de transformar nuances clínicas em regras rígidas de decisão.
+
+### 🛠️ Fluxo de Decisão
+1. **Emergência (Vermelho):** FC > 120, Falta de ar ou Convulsão.
+2. **Urgência (Amarelo):** Temperatura >= 37.5°C ou Vômito/Dor Forte.
+3. **Leve (Verde):** Sintomas estáveis, encaminhamento comum.
+
+---
+
+## 🛒 2. Gestão de Inventário e PDV (Ponto de Venda)
+
+Sistema modular projetado para controle de estoque dinâmico e processamento financeiro de vendas.
+
+### 🏗️ Arquitetura Modular
+O projeto é dividido em módulos independentes para garantir manutenibilidade:
+* **Módulo 1 (Validação):** Garante que o valor pago cobre a venda e verifica a disponibilidade física no estoque.
+* **Módulo 2 (Processamento):** Realiza a baixa automática no estoque e executa o **Algoritmo de Troco Otimizado**.
+* **Módulo 3 (Persistência):** Atualiza o banco de dados e emite o comprovante de venda.
+
+### 🧮 Algoritmo de Troco
+Implementação de lógica de divisão inteira (`//`) e módulo (`%`) para calcular a menor quantidade de cédulas (100, 50, 20, 10, 5, 2, 1) necessária para o troco.
+
+### 📊 Exemplo de Fluxo
+```python
+# Entrada de mercadoria (Reposição)
+entrada_estoque("All Star_38", 10) 
+
+# Processamento de Venda
+realizar_venda(item="Air Max_40", quantidade=1, valor_pago=1000)
+🧠 Conceitos Demonstrados
+Máquinas de Estado: Controle de fluxo desde o 'Início' até o 'Fim' com ramificações condicionais claras.
+
+Tratamento de Exceções: Validação de dados de entrada para evitar erros de execução.
+
+Modularização: Separação de responsabilidades (Entrada -> Processamento -> Saída).
+
+Documentação de Processos: Uso de fluxogramas para planejamento antes da codificação.
+
+✍️ Autor
+Guilherme Silva Ferreira Batista Estudante de Análise e Desenvolvimento de Sistemas – UNICID
+
+Projetos desenvolvidos para as disciplinas de Lógica de Programação e Engenharia de Sistemas.
