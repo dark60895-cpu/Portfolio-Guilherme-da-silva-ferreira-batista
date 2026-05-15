@@ -1,3 +1,5 @@
+# Projeto-engenharia-de-contexto-e-logica-fisica
+
 # 🏙️ Urban Intelligence: Microclima, Conforto e Evacuação
 
 Este projeto em Python integra análise de dados ambientais em tempo real com simuladores de tomada de decisão. O foco principal é a convergência entre conceitos de **Smart Cities** (Cidades Inteligentes), segurança residencial e bem-estar urbano.
