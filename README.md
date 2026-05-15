@@ -1,4 +1,67 @@
 # Guilherme da Silva Ferreira Batista
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/guilherme-da-silva-ferreira-batista-6294513b5)
+[![E-mail](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:dark60895@gmail.com)
+[![Currículo](https://img.shields.io/badge/Currículo-000000?style=for-the-badge&logo=read-the-docs&logoColor=white)](https://github.com/dark60895-cpu/Portifolio-Guilherme-da-silva-ferreira-batista/blob/main/guilherme_silva(curriculo)....pdf%20(1).pdf)
+
+> **Estudante de Análise e Desenvolvimento de Sistemas** | **Especialista em Operações Logísticas & Administrativas**
+
+---
+
+## Perfil Profissional
+
+Atualmente cursando **Análise e Desenvolvimento de Sistemas**, concentro esforços na aplicação de raciocínio lógico estruturado e automação de processos para o desenvolvimento de soluções tecnológicas de alto impacto.
+
+Com quatro anos de experiência consolidada no setor logístico do **Atacadão (Grupo Carrefour)** — atuando na gestão de fluxos complexos de entrada e saída, conferência técnica de estoque e suporte administrativo estratégico a canais de vendas digitais — desenvolvi forte capacidade analítica e rigor organizacional. Essas competências são agora direcionadas à arquitetura de software e à engenharia de dados.
+
+**Objetivo profissional:** Transicionar para o setor tecnológico ou ocupar posições administrativas estratégicas, contribuindo com precisão técnica e compromisso com a melhoria contínua.
+
+---
+
+## Competências Técnicas
+
+| Categoria | Tecnologias & Ferramentas |
+| :--- | :--- |
+| **Programação** | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) |
+| **Banco de Dados** | SQL (modelagem, consultas, integridade referencial) |
+| **Ferramentas & Gestão** | ![Excel](https://img.shields.io/badge/Microsoft_Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white) ![VS Code](https://img.shields.io/badge/VS%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white) ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white) |
+| **Práticas & Padrões** | Clean Code, Design Patterns, PEP 8, Modularização, Data Cleaning |
+
+**Habilidades socioemocionais:** Pensamento crítico · Resolução estruturada de problemas · Comunicação assertiva · Resiliência operacional
+
+---
+
+## Projetos Acadêmicos e Técnicos
+
+### 📐 Arquitetura de Software & Implementação Estruturada
+
+| Projeto | Descrição Técnica | Acesso |
+| :--- | :--- | :---: |
+| **Engenharia de Soluções Lógicas** | Desenvolvimento de algoritmos para problemas complexos utilizando modelagem matemática e lógica proposicional, com foco na otimização de fluxos de decisão. | [🔗](https://github.com/dark60895-cpu/portfolio-guilherme-da-silva-ferreira-batista/tree/main/Projeto-engenharia-de-solu%C3%A7%C3%B5es-logicas) |
+| **Lógica Aplicada em Python** | Transposição rigorosa de fluxogramas e pseudocódigos para Python, priorizando legibilidade (Clean Code), eficiência algorítmica e aderência à PEP 8. | [🔗](https://github.com/dark60895-cpu/Portifolio-Guilherme-da-silva-ferreira-batista/tree/main/Projeto-traduzindo-logica-para-python) |
+| **Modularização de Sistemas** | Estruturação de software baseada em componentes independentes e reutilizáveis, aplicando o princípio de *Single Responsibility* para garantir manutenibilidade e escalabilidade. | [🔗](https://github.com/dark60895-cpu/Portifolio-Guilherme-da-silva-ferreira-batista/tree/main/Projeto-Modularização) |
+
+### 📊 Inteligência de Dados, Auditoria & Simulação
+
+| Projeto | Descrição Técnica | Acesso |
+| :--- | :--- | :---: |
+| **Auditoria de Recursos** | Automação de balanços financeiros com funções recursivas para consolidação orçamentária e *decorators* para monitoramento de performance e auditoria de logs. | [🔗](https://github.com/dark60895-cpu/portfolio-guilherme-da-silva-ferreira-batista/tree/main/Projeto-Sistema_de_auditoria_de_recursos) |
+| **Engine de Auditoria de Dados** | Algoritmo especializado em *Data Cleaning* e validação estrutural, projetado para identificar anomalias e tratar inconsistências em grandes volumes de dados brutos. | [🔗](https://github.com/dark60895-cpu/Portifolio-Guilherme-da-silva-ferreira-batista/tree/main/Projeto-algoritmo-de-auditoria-de-dados) |
+| **Engenharia de Contexto Físico** | Simulador de navegação e análise microclimática que converte variáveis físicas reais em nós de decisão lógica para processamento de telemetria e análise espacial. | [🔗](https://github.com/dark60895-cpu/Portifolio-Guilherme-da-silva-ferreira-batista/tree/main/Projeto-engenharia-de-contexto-e-logica-fisica) |
+
+---
+
+## Estrutura do Repositório
+
+A organização sistemática abaixo visa facilitar a navegação e o entendimento técnico dos módulos:
+
+
+
+
+
+
+
+# Guilherme da Silva Ferreira Batista
 > **Estudante de Análise e Desenvolvimento de Sistemas | Especialista em Operações Logísticas & Administrativas**
 
 ## 📫 Contato & Redes Sociais
