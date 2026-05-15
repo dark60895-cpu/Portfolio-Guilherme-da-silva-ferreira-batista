@@ -42,7 +42,8 @@
 | :--- | :--- | :---: |
 | **Engenharia de Soluções Lógicas** | Desenvolvimento de algoritmos para resolução de problemas complexos, utilizando modelagem matemática e lógica proposicional para otimizar fluxos de decisão técnica. | [Ver Repositório](https://github.com/dark60895-cpu/portfolio-guilherme-da-silva-ferreira-batista/tree/main/Projeto-engenharia-de-solu%C3%A7%C3%B5es-logicas) |
 | **Lógica Aplicada em Python** | Transposição rigorosa de fluxogramas e pseudocódigos para ambientes Python, priorizando a legibilidade (Clean Code), eficiência algorítmica e conformidade com a PEP 8. | [Ver Repositório](https://github.com/dark60895-cpu/Portifolio-Guilherme-da-silva-ferreira-batista/tree/main/Projeto-traduzindo-logica-para-python) |
-| **Modularização de Sistemas** | Estruturação de software baseada em componentes independentes e reutilizáveis, aplicando princípios de *Single Responsibility* para garantir manutenibilidade e escalabilidade. | [Ver Repositório](https://github.com/dark60895-cpu/Portifolio-Guilherme-da-silva-ferreira-batista/tree/main/Projeto-Modularização) |
+| **Modularização de Sistemas** | Estruturação de software baseada em componentes independentes e reutilizáveis, aplicando princípios de *Single Responsibility* para garantir manutenibilidade e escalabilidade. | [Ver Repositório](https://github.com/dark60895-cpu/Portifolio-Guilherme-da-silva-ferreira-batista/tree/main/Projeto-Modularização) 
+**Projeto Sistema De Auditoria De Recursos** | Sistema inteligente para gestão financeira e fiscalização de orçamentos em estruturas empresariais complexas. | [Ver Projeto](https://github.com/dark60895-cpu/portfolio-guilherme-da-silva-ferreira-batista/tree/main/Projeto-Sistema_de_auditoria_de_recursos)
 
 <br>
 
